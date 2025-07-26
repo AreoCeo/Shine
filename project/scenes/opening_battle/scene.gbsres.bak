@@ -1,0 +1,270 @@
+{
+  "_resourceType": "scene",
+  "id": "33b36264-8f26-4e4a-959c-adbcca8286a1",
+  "_index": 5,
+  "type": "TOPDOWN",
+  "name": "Opening battle",
+  "symbol": "scene_scene_6",
+  "x": 1120,
+  "y": 528,
+  "width": 40,
+  "height": 18,
+  "backgroundId": "7f5a83f4-f25b-4175-843d-990e6c6cd8bd",
+  "tilesetId": "",
+  "paletteIds": [
+    "d9258aa6-0186-457a-bbba-1de979da3346",
+    "9b645a85-8198-48b7-aec9-884e08789592",
+    "f931c1a5-26a7-4c40-ac7b-41bf10507841"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": null,
+  "playerSpriteSheetId": "d8941876-8ada-421f-b97e-15d8455d90fd",
+  "script": [
+    {
+      "command": "EVENT_OVERLAY_HIDE",
+      "args": {},
+      "id": "bc37b9d1-a3e3-439b-aefb-dc50b2b5bdee"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 20
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 0
+      },
+      "id": "5a807b21-079f-420d-9869-4d184f5ebbdb"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "8e8b3bca-699a-401b-b814-6efd5ae4a6a9"
+    },
+    {
+      "command": "EVENT_SET_PALETTE_COLORS",
+      "args": {
+        "sys": "dmg",
+        "pal": "OBP1",
+        "c0": {
+          "type": "number",
+          "value": 3
+        },
+        "c1": {
+          "type": "number",
+          "value": 3
+        },
+        "c2": {
+          "type": "number",
+          "value": 3
+        },
+        "c3": {
+          "type": "number",
+          "value": 3
+        },
+        "type": "Bkg",
+        "cpal": 1,
+        "cc0": true,
+        "r0": {
+          "type": "number",
+          "value": 29
+        },
+        "g0": {
+          "type": "number",
+          "value": 31
+        },
+        "b0": {
+          "type": "number",
+          "value": 28
+        },
+        "cc1": true,
+        "r1": {
+          "type": "number",
+          "value": 22
+        },
+        "g1": {
+          "type": "number",
+          "value": 30
+        },
+        "b1": {
+          "type": "number",
+          "value": 17
+        },
+        "cc2": true,
+        "r2": {
+          "type": "number",
+          "value": 10
+        },
+        "g2": {
+          "type": "number",
+          "value": 19
+        },
+        "b2": {
+          "type": "number",
+          "value": 15
+        },
+        "cc3": true,
+        "r3": {
+          "type": "number",
+          "value": 4
+        },
+        "g3": {
+          "type": "number",
+          "value": 5
+        },
+        "b3": {
+          "type": "number",
+          "value": 10
+        }
+      },
+      "id": "47c02ddc-e906-4a5b-b04a-e188863db3c4"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2"
+      },
+      "id": "9ece1a27-dcc3-411c-af9f-efea5b060ecc"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 7
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 1
+      },
+      "id": "1ecb1f84-8a29-42f4-9f9e-54934f3c1673"
+    },
+    {
+      "command": "EVENT_SET_PALETTE_COLORS",
+      "args": {
+        "sys": "dmg",
+        "pal": "OBP1",
+        "c0": {
+          "type": "number",
+          "value": 1
+        },
+        "c1": {
+          "type": "number",
+          "value": 2
+        },
+        "c2": {
+          "type": "number",
+          "value": 3
+        },
+        "c3": {
+          "type": "number",
+          "value": 3
+        },
+        "type": "Bkg",
+        "cpal": 1,
+        "cc0": true,
+        "r0": {
+          "type": "number",
+          "value": 29
+        },
+        "g0": {
+          "type": "number",
+          "value": 31
+        },
+        "b0": {
+          "type": "number",
+          "value": 28
+        },
+        "cc1": true,
+        "r1": {
+          "type": "number",
+          "value": 22
+        },
+        "g1": {
+          "type": "number",
+          "value": 30
+        },
+        "b1": {
+          "type": "number",
+          "value": 17
+        },
+        "cc2": true,
+        "r2": {
+          "type": "number",
+          "value": 10
+        },
+        "g2": {
+          "type": "number",
+          "value": 19
+        },
+        "b2": {
+          "type": "number",
+          "value": 15
+        },
+        "cc3": true,
+        "r3": {
+          "type": "number",
+          "value": 4
+        },
+        "g3": {
+          "type": "number",
+          "value": 5
+        },
+        "b3": {
+          "type": "number",
+          "value": 10
+        }
+      },
+      "id": "232c3add-a2c3-43df-8d11-e4ca197f7cdc"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "f2610c4b-43e1-4caa-8cec-5d7749564471",
+        "loop": true
+      },
+      "id": "d98b1ea9-8e58-45cd-b9c3-b366cfa08cf8"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 10
+      },
+      "id": "b61f0f6c-53a9-426e-803d-e4f91bff000e"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "222ff45f-3501-461b-85e8-ba76c7b0247b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "38d7913d-ebd1-4ea0-ac30-3acc6bdaeb0b",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "e611c164-41a1-4125-98ec-9ddb6011c5e5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

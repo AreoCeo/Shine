@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "99b89e65-9589-4e17-bb07-fb0b026f6602",
+  "_index": 3,
+  "symbol": "actor_17",
+  "prefabId": "",
+  "name": "",
+  "x": 24,
+  "y": 12,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The PC is off."
+        ],
+        "avatarId": ""
+      },
+      "id": "05e02a65-a887-4e1a-9310-d215c6289b06"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

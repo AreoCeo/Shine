@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "58c7a80b-81f7-4797-b8bd-b6ab0efc209f",
+  "name": "OPENING-BATTLE",
+  "symbol": "bg_opening_battle_0",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "OPENING-BATTLE.png",
+  "tileColors": "",
+  "autoColor": false
+}

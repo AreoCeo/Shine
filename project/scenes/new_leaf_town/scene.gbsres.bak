@@ -1,0 +1,127 @@
+{
+  "_resourceType": "scene",
+  "id": "ae61f23c-434b-489f-abb1-abaf0d61ea75",
+  "_index": 1,
+  "type": "TOPDOWN",
+  "name": "New Leaf Town",
+  "symbol": "scene_new_leaf_town",
+  "x": 731,
+  "y": 112.5,
+  "width": 128,
+  "height": 80,
+  "backgroundId": "cfaf4081-e540-4535-9749-49133cb53d69",
+  "tilesetId": "",
+  "paletteIds": [
+    "633738ff-187a-49a4-a1bf-64d72d72ce0f"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": null,
+  "script": [
+    {
+      "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+      "args": {
+        "speedIn": 0,
+        "speedOut": 0,
+        "speed": 0,
+        "allowFastForward": true
+      },
+      "id": "321ce080-f58b-43b2-8e5b-398fb01db179"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "73b0073b-f6b4-452f-ada3-18d43317b43e"
+      },
+      "id": "b1e07173-9a75-41d1-a95e-e4df816a458f"
+    },
+    {
+      "command": "EVENT_SET_PALETTE_COLORS",
+      "args": {
+        "sys": "dmg",
+        "pal": "OBP1",
+        "c0": {
+          "type": "number",
+          "value": 1
+        },
+        "c1": {
+          "type": "number",
+          "value": 2
+        },
+        "c2": {
+          "type": "number",
+          "value": 3
+        },
+        "c3": {
+          "type": "number",
+          "value": 3
+        },
+        "type": "Bkg",
+        "cpal": 1,
+        "cc0": true,
+        "r0": {
+          "type": "number",
+          "value": 29
+        },
+        "g0": {
+          "type": "number",
+          "value": 31
+        },
+        "b0": {
+          "type": "number",
+          "value": 28
+        },
+        "cc1": true,
+        "r1": {
+          "type": "number",
+          "value": 22
+        },
+        "g1": {
+          "type": "number",
+          "value": 30
+        },
+        "b1": {
+          "type": "number",
+          "value": 17
+        },
+        "cc2": true,
+        "r2": {
+          "type": "number",
+          "value": 10
+        },
+        "g2": {
+          "type": "number",
+          "value": 19
+        },
+        "b2": {
+          "type": "number",
+          "value": 15
+        },
+        "cc3": true,
+        "r3": {
+          "type": "number",
+          "value": 4
+        },
+        "g3": {
+          "type": "number",
+          "value": 5
+        },
+        "b3": {
+          "type": "number",
+          "value": 10
+        }
+      },
+      "id": "cf54da14-a8e9-4c4e-8560-bed82387f47b"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2"
+      },
+      "id": "c7e99d28-aeda-408e-8f50-79d4fc619421"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0fa34+008+0f78+008+0f78+008+0f78+008+0f44+001c+0f8+006+0fa+008+0f10+006+0f2e+001c+0f8+006+0fa+008+0f10+006+0f46+004+0f8+006+0fa+008+0f8+006+0f4e+004+0f8+006+0fa+008+0f8+006+0f36+0018+0f2+002+0f8+006+0f4+002+0f6+006+0f2+002+0f4+006+0f2+004c+0f2+002+0f8+006+0f4+002+0f6+006+0f2+002+0f4+006+0f2+004c+0f2+002+0f8+006+0f2+0018+0f8+004c+0f2+002+0f8+006+0f2+0018+0f8+004c+0f2+0010+0f2+006c+0f2+0010+0f2+0054+0f4+0014+0f14+0054+0f4+0014+0f14+0064+0f2+002a+0f18+003c+0f2+002a+0f18+0068+0f10+007+0f!0068+0f10+007+0f!0044+0f18+00c+0fc+004+0f4+003+0f!0044+0f18+00c+0fc+004+0f4+003+0f!0044+0f2+00e+0f8+008+0f2+002+0f4+004+0f4+004+0f4+003+0f!0044+0f2+00e+0f8+008+0f2+002+0f4+004+0f4+004+0f4+003+0f!0044+0f2+002+0fe+002+0f6+0014+0f2+004+0f4+003+0f!0044+0f2+002+0fe+002+0f6+0014+0f2+004+0f4+003+0f!0044+0f2+002+0fc+001e+0f2+004+0f4+003+0f21+0024+0f2+002+0fc+001e+0f2+004+0f4+003+0f21+00c+0f18+004+0f2c+004+0f4c+004+0f2c+004+0f34+001c+0f14+001c+0f34+001c+0f14+001c+0f7c+004+0f7c+004+0f7c+004+0f7c+004+0fc34+"
+}

@@ -1,0 +1,86 @@
+{
+  "_resourceType": "script",
+  "id": "fe3177d3-13b6-4396-992c-abcbb67a7d3f",
+  "name": "Battle Menu",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_12",
+  "script": [
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "57",
+        "items": 2,
+        "option1": "Fight",
+        "option2": "Run",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "menu",
+        "cancelOnLastOption": true
+      },
+      "id": "a3f635fa-c855-43c9-a63e-cd0da9958c64"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "57"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "3670fdf5-0e7a-4005-a84a-ff47f5aa1539"
+            },
+            "id": "06834866-7af1-4366-9cd3-2c631c592c2b"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Ran away safely"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7880d0df-a57b-4d53-b608-c6f91743f4dd"
+          }
+        ]
+      },
+      "id": "b46ac203-9952-44df-a40e-c23f61739e58"
+    }
+  ]
+}

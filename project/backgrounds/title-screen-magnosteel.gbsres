@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ec31a387-ec19-4209-a223-fb8816e9e339",
+  "name": "TITLE-SCREEN-MAGNOSTEEL",
+  "symbol": "bg_title_screen_magnosteel",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "TITLE-SCREEN-MAGNOSTEEL.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,86 @@
+{
+  "_resourceType": "trigger",
+  "id": "4da9988f-c8b0-459e-8742-a3a769ccaf36",
+  "name": "",
+  "prefabId": "",
+  "x": 20,
+  "y": 10,
+  "symbol": "trigger_77",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0e9e805e-c507-43ed-9a9f-bc28c7a04e68",
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 27
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "6609584d-1d76-4ae4-8be2-9f05441dd4df"
+          }
+        ],
+        "false": []
+      },
+      "id": "a7a9f2fe-5686-4c01-99fa-c064634080d5"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "5a931ac9-8cfc-4b99-af56-269b84ac84e3"
+          }
+        ],
+        "false": []
+      },
+      "id": "ea465f13-3a2a-4f95-a3ca-4a9503046f80"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 6
+}

@@ -1,0 +1,18 @@
+{
+  "_resourceType": "script",
+  "id": "3670fdf5-0e7a-4005-a84a-ff47f5aa1539",
+  "name": "printmoves",
+  "description": "Print moves to back",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_13",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "663a2ab7-a585-405f-a150-488693258f6f"
+    }
+  ]
+}

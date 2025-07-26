@@ -1,0 +1,27 @@
+{
+  "_resourceType": "scene",
+  "id": "217f0bd7-406a-4d68-b92b-5a62db28ea13",
+  "_index": 1,
+  "type": "TOPDOWN",
+  "name": "New Game",
+  "symbol": "scene_continue_new_game",
+  "x": 1136,
+  "y": 168,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "a320d079-1cad-4f78-bc7a-11bc5c3aea93",
+  "tilesetId": "",
+  "paletteIds": [
+    "d9258aa6-0186-457a-bbba-1de979da3346"
+  ],
+  "spritePaletteIds": [
+    "default-ui"
+  ],
+  "autoFadeSpeed": 2,
+  "playerSpriteSheetId": "0433806a-2b6b-4032-a93d-c47eced59c92",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f4+0010+0f4+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0010+0f4+0010+0f4+00d8+"
+}

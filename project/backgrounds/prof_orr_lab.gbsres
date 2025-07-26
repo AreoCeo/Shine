@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "37bfd425-75e7-4211-8ea1-eb10635b3340",
+  "name": "prof orr lab",
+  "symbol": "bg_prof_orr_lab",
+  "width": 40,
+  "height": 48,
+  "imageWidth": 320,
+  "imageHeight": 384,
+  "filename": "prof orr lab.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,31 @@
+{
+  "_resourceType": "script",
+  "id": "5cffc159-6038-4309-94a3-cd3a193182cc",
+  "name": "camera",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_10",
+  "script": [
+    {
+      "command": "PT_EVENT_CAMERA_FIELD_SET",
+      "args": {
+        "field": "camera_offset_x",
+        "variable": "V0",
+        "value": -8,
+        "type": "number"
+      },
+      "id": "808cf89d-8612-437f-9c93-45f7df67ba4e"
+    },
+    {
+      "command": "PT_EVENT_CAMERA_FIELD_SET",
+      "args": {
+        "field": "camera_offset_y",
+        "variable": "V0",
+        "value": 8,
+        "type": "number"
+      },
+      "id": "63d87d1c-6c76-4f22-b6b6-dd44cfc63ea5"
+    }
+  ]
+}

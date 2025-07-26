@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "459c8bc4-30fa-4958-97c1-23fd3fd3adf8",
+  "_index": 8,
+  "symbol": "trigger_60",
+  "prefabId": "",
+  "name": "",
+  "x": 36,
+  "y": 32,
+  "width": 8,
+  "height": 4,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "BEHIND-GRASS"
+      },
+      "id": "77750ab9-d610-44bc-b8de-63c0c19ee72b"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": ""
+      },
+      "id": "e0e782a0-4da7-4917-bbea-4b4016a65faf"
+    }
+  ]
+}

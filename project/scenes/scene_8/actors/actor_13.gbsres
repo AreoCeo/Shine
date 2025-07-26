@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "a8bc2521-fea8-4f0b-9c4d-d480ca4d4695",
+  "_index": 12,
+  "symbol": "actor_28",
+  "prefabId": "",
+  "name": "",
+  "x": 26,
+  "y": 31,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Legendary POKéMON"
+        ],
+        "avatarId": ""
+      },
+      "id": "0dd8ed0a-6f27-49ad-83f2-979770f6193b"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

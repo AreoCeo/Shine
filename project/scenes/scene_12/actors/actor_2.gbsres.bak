@@ -1,0 +1,159 @@
+{
+  "_resourceType": "actor",
+  "id": "7fc5247f-f48d-447a-bd2c-25659f129265",
+  "_index": 1,
+  "symbol": "actor_49",
+  "prefabId": "",
+  "name": "",
+  "x": 24,
+  "y": 21,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "97713347-2f0a-4554-bae9-0535d40b7495",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "11",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "9"
+        }
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "9"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "10"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Are you sure you\nwant the fire\nPOKéMON p2?"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "27ed1feb-dda9-452f-9b01-64687b799f78"
+                },
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "L1",
+                    "items": 2,
+                    "option1": "No",
+                    "option2": "Yes",
+                    "option3": "",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": true,
+                    "layout": "dialogue"
+                  },
+                  "id": "d8539e19-caab-4a0a-89dc-4c8b759631e9"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "L1",
+                    "operator": "==",
+                    "comparator": 1,
+                    "__collapseElse": false,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L1"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [],
+                    "false": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "9",
+                          "__collapse": false,
+                          "value": {
+                            "type": "number",
+                            "value": 2
+                          }
+                        },
+                        "id": "1b181eae-9f7e-4653-9e47-6090033c4aac"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "7",
+                          "value": {
+                            "type": "true"
+                          }
+                        },
+                        "id": "f9bba352-0894-446a-8f3c-ad1a6027a500"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "$self$"
+                        },
+                        "id": "77ebca4d-a6d4-47a8-b4df-be54f7e7c64d"
+                      },
+                      {
+                        "command": "EVENT_MUSIC_PLAY",
+                        "args": {
+                          "musicId": "27b5eb98-5f59-421c-8ba8-22b034f0f282"
+                        },
+                        "id": "6953a2de-a347-4efa-9414-ba6fecbf6387"
+                      }
+                    ]
+                  },
+                  "id": "29a67163-d68c-49d7-8b0b-b53062da8e3c"
+                }
+              ],
+              "false": []
+            },
+            "id": "8b14c9b9-8f05-45c9-b23a-48129fb723e1"
+          }
+        ]
+      },
+      "id": "943901c1-5753-447b-872f-347002c57d1f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

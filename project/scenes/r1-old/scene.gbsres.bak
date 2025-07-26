@@ -1,0 +1,42 @@
+{
+  "_resourceType": "scene",
+  "id": "0e9e805e-c507-43ed-9a9f-bc28c7a04e68",
+  "_index": 20,
+  "name": "r1-old",
+  "backgroundId": "34bdb919-d258-4772-a394-b8c83adcd375",
+  "tilesetId": "",
+  "width": 40,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "0de2db3f-1691-4e80-9078-5a9a02257e49",
+    "8bd0ae7b-d916-4116-abcc-5a1bf3cdbe0e",
+    "34daa08b-2935-44bd-8357-71e3d3679b23",
+    "7440abbb-930a-47ed-bcc6-6aa6b12bd556"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0019a+0fe+001a+0fe+0018+0f4+002+0f4+004+0fa+0010+0f4+002+0f4+004+0fa+0010+0f2+0014+0f2+0010+0f2+0014+0f2+0010+0f6+00c+0f6+0010+0f6+00c+0f6+0014+0f2+00c+0f2+0018+0f2+00c+0f2+0018+0f2+00c+0f2+0018+0f2+00c+0f2+0014+0f6+00c+0f6+0010+0f6+00c+0f6+0010+0f2+0014+0f2+0010+0f2+0014+0f2+0010+0f2+0014+0f2+0010+0f2+0014+0f2+0010+0f18+0010+0f18+00198+",
+  "autoFadeSpeed": 2,
+  "symbol": "scene_0",
+  "x": 3848,
+  "y": 4360,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "11635729-6707-4990-8d07-bcfbece29c6c"
+      },
+      "id": "1dc228dc-8e53-4b2d-81fe-cc4a32afdf1a"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a257ecc1-0f0b-42e2-90aa-0c9177efa033"
+      },
+      "id": "5ab0fb4d-dfc7-4a2e-b1c1-2996396ac177"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

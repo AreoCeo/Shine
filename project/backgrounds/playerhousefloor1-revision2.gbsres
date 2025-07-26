@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "24bd7676-cd20-43d5-b219-92b71b770871",
+  "name": "PlayerHouseFloor1-Revision2",
+  "symbol": "bg_playerhousefloor1_revisi",
+  "width": 40,
+  "height": 48,
+  "imageWidth": 320,
+  "imageHeight": 384,
+  "filename": "PlayerHouseFloor1-Revision2.png",
+  "tileColors": "0728a+0114+0714+014+022+012+002+01a+0714+026+012+002+01a+0714+022+012+022+01e+0714+0114+0714+0114+0714+0114+0714+0114+0714+0114+0714+0114+0714+0114+0714+0114+0714+0114+0714+0114+0714+01c+034+014+0714+01c+034+014+0728a+",
+  "autoColor": false
+}

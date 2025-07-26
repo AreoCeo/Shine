@@ -1,0 +1,74 @@
+{
+  "_resourceType": "actor",
+  "id": "b16ffcde-0a0a-4bc6-b20f-5afa9062d76c",
+  "_index": 3,
+  "symbol": "actor_53",
+  "prefabId": "",
+  "name": "",
+  "x": 18,
+  "y": 21,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2e213022-1a11-416a-9552-8ad00aef01b5",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "7",
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "For your safety \nyou should pick",
+                "your POKéMON"
+              ],
+              "avatarId": ""
+            },
+            "id": "fe6ff6b2-51dd-4061-9917-09cae0e73bb7"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I will help you\nall I can on your",
+                "journey,"
+              ],
+              "avatarId": ""
+            },
+            "id": "ae6411fb-aca7-481a-91d9-8c39a56dbc3d"
+          }
+        ]
+      },
+      "id": "e21dc90f-3d70-4f85-92ff-2d80c744666a"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

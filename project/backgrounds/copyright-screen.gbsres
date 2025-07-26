@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7f5a83f4-f25b-4175-843d-990e6c6cd8bd",
+  "name": "COPYRIGHT-SCREEN",
+  "symbol": "bg_copyright_screen",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "COPYRIGHT-SCREEN.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,73 @@
+{
+  "_resourceType": "scene",
+  "id": "05ffde4d-ec9e-4077-bd1e-1b6ac3bcd7bd",
+  "_index": 10,
+  "type": "TOPDOWN",
+  "name": "Scene 12",
+  "symbol": "scene_12",
+  "x": 5888,
+  "y": 13320,
+  "width": 40,
+  "height": 48,
+  "backgroundId": "2d2c626e-9fe0-4f00-8b60-e1bd0a68c0f0",
+  "tilesetId": "",
+  "paletteIds": [
+    "34daa08b-2935-44bd-8357-71e3d3679b23",
+    "9b2f3646-f6d9-4912-a555-9b4963b6b8fd",
+    "0de2db3f-1691-4e80-9078-5a9a02257e49",
+    "7440abbb-930a-47ed-bcc6-6aa6b12bd556"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 2,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "11635729-6707-4990-8d07-bcfbece29c6c"
+      },
+      "id": "13e0d1ff-ba3c-414c-8c65-612b8cf1984f"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "9",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "7"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "13383891-5270-4a43-9884-29d06ca2d838"
+            },
+            "id": "b42b7041-b6f2-4371-9acb-5e037185f5c9"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "7fc5247f-f48d-447a-bd2c-25659f129265"
+            },
+            "id": "56c6ef20-d7ff-455a-b4ef-2d64c507af2b"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "8e8289dc-97f2-4425-b6dd-14bb8756042e"
+            },
+            "id": "6f1c357c-4e8c-4784-8869-17a7249b92a5"
+          }
+        ],
+        "false": []
+      },
+      "id": "de827b86-2988-4d13-8cc5-f34c7d927b2c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0028a+0f14+0014+0f14+0014+0fa+008+0f2+0014+0fa+008+0f2+0014+0f2+00a+0f8+0014+0f2+00a+0f8+0014+0f2+0010+0f2+0014+0f2+0010+0f2+0014+0f2+0010+0f2+0014+0f2+0010+0f2+0014+0f2+0010+0f2+0014+0f2+0010+0f2+0014+0f2+0010+0f2+0014+0f2+0010+0f2+0014+0f2+0010+0f2+0014+0f2+0010+0f2+0014+0f14+0014+0f13+0023b+"
+}

@@ -1,0 +1,92 @@
+{
+  "_resourceType": "trigger",
+  "id": "dde71684-7b81-4c7c-981f-29ace3e8780c",
+  "_index": 4,
+  "symbol": "trigger_15",
+  "prefabId": "",
+  "name": "",
+  "x": 18,
+  "y": 24,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "SHINE went to\nrest!"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "8e9107aa-83d8-4b19-b2bc-7377be7596a5"
+                },
+                {
+                  "command": "EVENT_FADE_OUT",
+                  "args": {
+                    "speed": 3
+                  },
+                  "id": "6df59884-096d-4bab-b1a4-c7a580336497"
+                },
+                {
+                  "command": "EVENT_FADE_IN",
+                  "args": {
+                    "speed": "2"
+                  },
+                  "id": "35ec50fc-6828-49b1-8380-f5e96420123c"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Time to get up\nnow."
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "64330e8f-686d-4c66-910f-693760464b7a"
+                }
+              ],
+              "false": []
+            },
+            "id": "984d37e3-8c8a-4042-93eb-bae77923ca1f"
+          }
+        ]
+      },
+      "id": "e56137be-e237-490a-8d06-4a015cf1d168"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "7f62f75f-5e92-4c88-a6ce-c60c8757f4a9"
+    }
+  ]
+}

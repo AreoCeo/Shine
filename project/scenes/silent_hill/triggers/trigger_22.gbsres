@@ -1,0 +1,91 @@
+{
+  "_resourceType": "trigger",
+  "id": "492061c8-3b9e-495f-b131-004b838e3985",
+  "name": "",
+  "prefabId": "",
+  "x": 17,
+  "y": 10,
+  "symbol": "trigger_75",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": true,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "PT_EVENT_ADVANCED_DIALOGUE",
+            "args": {
+              "__scriptTabs": "text",
+              "minHeight": 5,
+              "maxHeight": 5,
+              "position": "top",
+              "showBorder": "true",
+              "clearPrevious": true,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "text": [
+                "Route 1"
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "b6088cfe-b5ae-4ebd-86ad-82b2d4ba4499"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "511f0b6c-47f7-419c-adee-da293a059afa"
+            },
+            "id": "80989306-7d66-40c1-bdfd-e3089278bce5"
+          },
+          {
+            "command": "EVENT_SET_MASTER_VOL",
+            "args": {
+              "l": 7,
+              "r": 7
+            },
+            "id": "6db5116a-d46d-4bfd-a4a8-903081888157"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "a257ecc1-0f0b-42e2-90aa-0c9177efa033"
+            },
+            "id": "d734eb84-686f-4cb2-8130-437dc6ec27eb"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "2212b1aa-7848-45a4-9ae1-3846b4afab2c"
+          },
+          {
+            "command": "EVENT_OVERLAY_HIDE",
+            "args": {},
+            "id": "e458f5d2-f2f8-466d-94dc-0ff12b0f05f8"
+          }
+        ],
+        "false": []
+      },
+      "id": "eb665cc7-5d45-432d-937f-de824a75c9f7"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 21
+}

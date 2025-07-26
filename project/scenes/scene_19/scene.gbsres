@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "6025d895-73ad-4dc9-ac69-cb9ef1fcec94",
+  "_index": 16,
+  "type": "TOPDOWN",
+  "name": "Scene 19",
+  "symbol": "scene_19",
+  "x": 1640,
+  "y": 448,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "bf072dd3-2efa-43cb-a254-bcc2f592a1ce",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "0433806a-2b6b-4032-a93d-c47eced59c92",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f54+002+0f12+002+0f12+002+0f12+002+0f12+002+0f12+002+0fae+"
+}

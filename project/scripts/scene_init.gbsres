@@ -1,0 +1,123 @@
+{
+  "_resourceType": "script",
+  "id": "11635729-6707-4990-8d07-bcfbece29c6c",
+  "name": "scene init",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "__collapseElse": false,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 2
+            },
+            "id": "fa318661-4d97-46f6-8ab6-6e28f9c3e549"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1,
+              "__collapse": false
+            },
+            "id": "ec1deb39-2f91-4f50-be0c-fa51fe8d5fe7"
+          }
+        ]
+      },
+      "id": "465c47d1-bc54-4601-bd35-5001f39ee9bb"
+    },
+    {
+      "command": "EVENT_SET_PALETTE_COLORS",
+      "args": {
+        "sys": "dmg",
+        "pal": "OBP1",
+        "c0": {
+          "type": "number",
+          "value": 1
+        },
+        "c1": {
+          "type": "number",
+          "value": 2
+        },
+        "c2": {
+          "type": "number",
+          "value": 3
+        },
+        "c3": {
+          "type": "number",
+          "value": 3
+        },
+        "type": "Bkg",
+        "cpal": 1,
+        "cc0": true,
+        "r0": {
+          "type": "number",
+          "value": 29
+        },
+        "g0": {
+          "type": "number",
+          "value": 31
+        },
+        "b0": {
+          "type": "number",
+          "value": 28
+        },
+        "cc1": true,
+        "r1": {
+          "type": "number",
+          "value": 22
+        },
+        "g1": {
+          "type": "number",
+          "value": 30
+        },
+        "b1": {
+          "type": "number",
+          "value": 17
+        },
+        "cc2": true,
+        "r2": {
+          "type": "number",
+          "value": 10
+        },
+        "g2": {
+          "type": "number",
+          "value": 19
+        },
+        "b2": {
+          "type": "number",
+          "value": 15
+        },
+        "cc3": true,
+        "r3": {
+          "type": "number",
+          "value": 4
+        },
+        "g3": {
+          "type": "number",
+          "value": 5
+        },
+        "b3": {
+          "type": "number",
+          "value": 10
+        }
+      },
+      "id": "a9489bbb-d4a3-48f3-bc3c-6fc998f1dda2"
+    }
+  ]
+}

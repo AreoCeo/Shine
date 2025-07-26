@@ -1,0 +1,76 @@
+{
+  "_resourceType": "scene",
+  "id": "cf88dfe5-9885-437f-ae14-e0e0d06c0e72",
+  "_index": 3,
+  "type": "TOPDOWN",
+  "name": "downstairs shine's house",
+  "symbol": "scene_scene_5",
+  "x": 4744,
+  "y": 4168,
+  "width": 40,
+  "height": 48,
+  "backgroundId": "24bd7676-cd20-43d5-b219-92b71b770871",
+  "tilesetId": "",
+  "paletteIds": [
+    "34daa08b-2935-44bd-8357-71e3d3679b23",
+    "9b2f3646-f6d9-4912-a555-9b4963b6b8fd",
+    "0de2db3f-1691-4e80-9078-5a9a02257e49",
+    "7440abbb-930a-47ed-bcc6-6aa6b12bd556"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": null,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "11635729-6707-4990-8d07-bcfbece29c6c"
+      },
+      "id": "66250625-bb40-4f11-8e2d-54d5c86c8ce9"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2"
+      },
+      "id": "999d5a0d-1a0e-4821-a0ad-e2d3dbb466b0"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L2",
+              "items": 2,
+              "option1": "SAVE",
+              "option2": "EXIT",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "menu",
+              "cancelOnLastOption": true
+            },
+            "id": "464a017c-42ef-451f-ad29-fe2e785f37cb"
+          }
+        ]
+      },
+      "id": "7f5c255d-8180-4251-b552-477b478d6988"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f29c+002+0f26+002+0f20+008+0f20+008+0f14+006+0f2+00c+0f14+006+0f2+00c+0f14+006+0f2+002+0f4+006+0f14+006+0f2+002+0f4+006+0f14+00a+0f4+006+0f14+00a+0f4+006+0f14+00a+0f4+006+0f14+0014+0f14+0014+0f14+0014+0f14+0014+0f14+0014+0f28a+"
+}

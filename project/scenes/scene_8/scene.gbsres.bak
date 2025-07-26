@@ -1,0 +1,35 @@
+{
+  "_resourceType": "scene",
+  "id": "56f7597b-32ae-4217-88a2-931f5fb8ec95",
+  "_index": 6,
+  "type": "TOPDOWN",
+  "name": "Scene 8",
+  "symbol": "scene_8",
+  "x": 1792,
+  "y": 1096,
+  "width": 40,
+  "height": 48,
+  "backgroundId": "122375f2-83cd-4f0a-8f15-0ad1530f453d",
+  "tilesetId": "",
+  "paletteIds": [
+    "34daa08b-2935-44bd-8357-71e3d3679b23",
+    "9b2f3646-f6d9-4912-a555-9b4963b6b8fd",
+    "0de2db3f-1691-4e80-9078-5a9a02257e49",
+    "7440abbb-930a-47ed-bcc6-6aa6b12bd556"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 2,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "11635729-6707-4990-8d07-bcfbece29c6c"
+      },
+      "id": "ae820993-69ab-4116-9ef3-1f60b3e3fc0a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f154+002+0f26+002+0f22+008+0f20+008+0f1c+0010+0f18+0010+0f18+0010+0f18+0010+0f18+0010+0f18+0010+0f18+0010+0f18+0010+0f1e+004+0f24+004+0f24+004+0f24+004+0f1e+0010+0f18+0010+0f18+0010+0f18+0010+0f1e+004+0f24+004+0f24+004+0f24+004+0f1e+0010+0f18+0010+0f18+0010+0f18+0010+0f18+0010+0f18+0010+0f18+0010+0f18+0010+0f14c+"
+}

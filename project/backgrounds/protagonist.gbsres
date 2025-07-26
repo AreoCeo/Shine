@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f46bc657-5a6d-4596-b156-365382cd6300",
+  "name": "PROTAGONIST",
+  "symbol": "bg_protagonist",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "PROTAGONIST.png",
+  "tileColors": "00100+022+0012+022+0052+",
+  "autoColor": false
+}

@@ -1,0 +1,25 @@
+{
+  "_resourceType": "trigger",
+  "id": "27fb1835-bf66-4f14-98a7-612acdf14b5f",
+  "name": "",
+  "prefabId": "",
+  "x": 44,
+  "y": 36,
+  "symbol": "trigger_1",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 4,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "BEHIND-GRASS",
+        "loopAnim": true
+      },
+      "id": "f9aeca29-08a8-4423-99ac-3bf114d1521e"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 6
+}

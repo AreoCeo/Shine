@@ -1,0 +1,69 @@
+{
+  "_resourceType": "trigger",
+  "id": "a3196e34-d21f-44aa-8c75-d8cb38d2f5ef",
+  "_index": 6,
+  "symbol": "trigger_17",
+  "prefabId": "",
+  "name": "",
+  "x": 26,
+  "y": 20,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "SHINE is playing\nthe NINTENDO 64! ",
+                      "...Okay! It's time\nto go!"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "2b2a2352-d662-4738-a3b1-3f61ef143112"
+                }
+              ],
+              "false": []
+            },
+            "id": "d4788847-e9b2-493e-8fb1-bf3666eb13ff"
+          }
+        ]
+      },
+      "id": "2d3ee33e-8a0b-4df9-a3ae-ddce75a7f8e7"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "20fbf54b-63c7-4626-b293-e40288ca0130"
+    }
+  ]
+}

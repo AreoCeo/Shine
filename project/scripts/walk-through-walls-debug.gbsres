@@ -1,0 +1,230 @@
+{
+  "_resourceType": "script",
+  "id": "73b0073b-f6b4-452f-ada3-18d43317b43e",
+  "name": "WALK-THROUGH-WALLS-DEBUG",
+  "symbol": "script_5",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "01082baa-fdab-4ea4-94e2-376fd67130c8"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "6",
+              "__collapseElse": false,
+              "condition": {
+                "type": "variable",
+                "value": "6"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_PALETTE_COLORS",
+                  "args": {
+                    "sys": "dmg",
+                    "pal": "OBP0",
+                    "c0": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "c1": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "c2": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "c3": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "type": "Bkg",
+                    "cpal": 1,
+                    "cc0": true,
+                    "r0": {
+                      "type": "number",
+                      "value": 29
+                    },
+                    "g0": {
+                      "type": "number",
+                      "value": 31
+                    },
+                    "b0": {
+                      "type": "number",
+                      "value": 28
+                    },
+                    "cc1": true,
+                    "r1": {
+                      "type": "number",
+                      "value": 22
+                    },
+                    "g1": {
+                      "type": "number",
+                      "value": 30
+                    },
+                    "b1": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "cc2": true,
+                    "r2": {
+                      "type": "number",
+                      "value": 10
+                    },
+                    "g2": {
+                      "type": "number",
+                      "value": 19
+                    },
+                    "b2": {
+                      "type": "number",
+                      "value": 15
+                    },
+                    "cc3": true,
+                    "r3": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "g3": {
+                      "type": "number",
+                      "value": 5
+                    },
+                    "b3": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "15c510c0-0238-403e-a52c-ec9be25230b1"
+                },
+                {
+                  "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+                  "args": {
+                    "actorId": "$self$"
+                  },
+                  "id": "1c82229e-c872-456c-b890-d78df81e7194"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_PALETTE_COLORS",
+                  "args": {
+                    "sys": "dmg",
+                    "pal": "OBP0",
+                    "c0": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "c1": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "c2": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "c3": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "type": "Bkg",
+                    "cpal": 1,
+                    "cc0": true,
+                    "r0": {
+                      "type": "number",
+                      "value": 29
+                    },
+                    "g0": {
+                      "type": "number",
+                      "value": 31
+                    },
+                    "b0": {
+                      "type": "number",
+                      "value": 28
+                    },
+                    "cc1": true,
+                    "r1": {
+                      "type": "number",
+                      "value": 22
+                    },
+                    "g1": {
+                      "type": "number",
+                      "value": 30
+                    },
+                    "b1": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "cc2": true,
+                    "r2": {
+                      "type": "number",
+                      "value": 10
+                    },
+                    "g2": {
+                      "type": "number",
+                      "value": 19
+                    },
+                    "b2": {
+                      "type": "number",
+                      "value": 15
+                    },
+                    "cc3": true,
+                    "r3": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "g3": {
+                      "type": "number",
+                      "value": 5
+                    },
+                    "b3": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "797bad38-7a11-4b64-802a-20a47e84a449"
+                },
+                {
+                  "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                  "args": {
+                    "actorId": "$self$"
+                  },
+                  "id": "6d14fa08-3511-48f9-96bf-f537c2107eca"
+                }
+              ]
+            },
+            "id": "85e705f1-6310-45f0-aec5-15b5d91553c8"
+          }
+        ]
+      },
+      "id": "942f6271-fd1e-4399-b3a1-161ebd771518"
+    }
+  ]
+}

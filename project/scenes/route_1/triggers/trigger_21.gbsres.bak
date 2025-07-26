@@ -1,0 +1,212 @@
+{
+  "_resourceType": "trigger",
+  "id": "a4af4f7b-d16d-40df-91e7-7be5fc4c2ccd",
+  "_index": 20,
+  "symbol": "trigger_66",
+  "prefabId": "",
+  "name": "",
+  "x": 62,
+  "y": 24,
+  "width": 2,
+  "height": 4,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "7",
+        "__collapseElse": true,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "8",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "fd7d55bc-e775-4a4a-a55b-2235ced88147"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "4ce7dcbe-b39f-4474-a59b-291387c648e1"
+            },
+            "id": "87d9db72-1671-4d22-a0f0-730275b70a6e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hey, where are you\ngoing?"
+              ],
+              "avatarId": ""
+            },
+            "id": "d676f021-de87-448d-b8d3-9305cc41f7bd"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "9b1367cb-93e4-4afe-9f03-f45d849b3724"
+            },
+            "id": "c6948fab-fdd1-451c-8d9b-515bb6976afc"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "9b1367cb-93e4-4afe-9f03-f45d849b3724",
+              "x": {
+                "type": "number",
+                "value": 64
+              },
+              "y": {
+                "type": "number",
+                "value": 24
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "42f69c64-96d4-4885-989a-c35de18a55db"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The POKéMON here \nare dangerous"
+              ],
+              "avatarId": ""
+            },
+            "id": "d5623642-f9f8-4b4f-b8d0-15a9c5c703fd"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Come with me to\nthe Lab"
+              ],
+              "avatarId": ""
+            },
+            "id": "762b9375-03fa-4496-aa73-47e89554ca54"
+          },
+          {
+            "command": "EVENT_CAMERA_MOVE_TO",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 80
+              },
+              "y": {
+                "type": "number",
+                "value": 20
+              },
+              "speed": 1
+            },
+            "id": "6b62365a-ad7e-4a31-95ba-769d151e9d01"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "9b1367cb-93e4-4afe-9f03-f45d849b3724",
+              "x": {
+                "type": "number",
+                "value": 88
+              },
+              "y": {
+                "type": "number",
+                "value": 34
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "8792dd8b-4f93-4d82-a466-4467c8e09779"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "9b1367cb-93e4-4afe-9f03-f45d849b3724",
+              "x": {
+                "type": "number",
+                "value": 88
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "8c871ebf-3ef8-46ae-bb19-b8f6d0bb6969"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "9b1367cb-93e4-4afe-9f03-f45d849b3724",
+              "__collapse": false
+            },
+            "id": "afb5f4d5-420f-4800-8c9e-6a4f97d19be3"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1
+            },
+            "id": "ac41cf11-7b76-4ff7-ab51-8938ae126e4e"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 88
+              },
+              "y": {
+                "type": "number",
+                "value": 34
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "b842f5bc-ce7c-4488-afb0-37af7c6c4fd2"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 88
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "5a60e59a-2039-495e-adba-15983da0a141"
+          }
+        ],
+        "false": []
+      },
+      "id": "6649c145-d33c-4f2b-afc7-d2b8951e6017"
+    }
+  ],
+  "leaveScript": []
+}

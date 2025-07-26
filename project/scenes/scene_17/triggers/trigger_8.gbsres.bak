@@ -1,0 +1,86 @@
+{
+  "_resourceType": "trigger",
+  "id": "0a801bad-6772-4dfa-b333-c2c33660ac87",
+  "name": "",
+  "prefabId": "",
+  "x": 22,
+  "y": 10,
+  "symbol": "trigger_78",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0e9e805e-c507-43ed-9a9f-bc28c7a04e68",
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 23
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "8030064a-7025-4b0e-958a-682e177183e0"
+          }
+        ],
+        "false": []
+      },
+      "id": "e1b3d77d-9b8d-4d41-a4ce-8a9359503667"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "ae883eb6-1023-448e-b4a4-2e63739f5dcc"
+          }
+        ],
+        "false": []
+      },
+      "id": "1267068f-6b1d-46fe-bca7-98dd1cd038a4"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 7
+}

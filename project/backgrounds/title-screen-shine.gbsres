@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b6d1f493-e832-4a10-9c34-9f98040460f1",
+  "name": "TITLE-SCREEN-SHINE",
+  "symbol": "bg_title_screen_shine",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "TITLE-SCREEN-SHINE.png",
+  "tileColors": "00168+",
+  "autoColor": false
+}

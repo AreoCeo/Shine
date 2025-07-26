@@ -1,0 +1,88 @@
+{
+  "_resourceType": "actor",
+  "id": "cf83fdc7-2e4b-4554-875c-ac2d35470770",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "eaab2c5c-4e5b-4637-a3dd-725fe91d3989",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "_index": 4,
+  "symbol": "actor_3",
+  "x": 2,
+  "y": 1,
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L5"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 16,
+              "units": "frames"
+            },
+            "id": "c1fedce9-0368-47c5-895c-dafeea5cff79"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 88
+              },
+              "y": {
+                "type": "number",
+                "value": 34
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "b1a022e5-74a2-4187-af95-f5fd7252e882"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 88
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "6d1e6df6-5324-481b-91d8-8a32216f94fc"
+          }
+        ],
+        "false": []
+      },
+      "id": "27f04eb9-7193-4812-8e0b-f168a80b341f"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

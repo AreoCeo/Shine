@@ -1,0 +1,45 @@
+{
+  "_resourceType": "script",
+  "id": "11635729-6707-4990-8d07-bcfbece29c6c",
+  "name": "scene init",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_IF_INPUT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "__collapseElse": false,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 2
+            },
+            "id": "fa318661-4d97-46f6-8ab6-6e28f9c3e549"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1,
+              "__collapse": false
+            },
+            "id": "ec1deb39-2f91-4f50-be0c-fa51fe8d5fe7"
+          }
+        ]
+      },
+      "id": "465c47d1-bc54-4601-bd35-5001f39ee9bb"
+    }
+  ]
+}

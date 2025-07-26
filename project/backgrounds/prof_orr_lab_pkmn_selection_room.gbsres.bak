@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2d2c626e-9fe0-4f00-8b60-e1bd0a68c0f0",
+  "name": "prof orr lab pkmn selection room",
+  "symbol": "bg_prof_orr_lab_pkmn_select",
+  "width": 40,
+  "height": 48,
+  "imageWidth": 320,
+  "imageHeight": 384,
+  "filename": "prof orr lab pkmn selection room.png",
+  "tileColors": "",
+  "autoColor": false
+}

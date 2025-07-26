@@ -1,0 +1,39 @@
+{
+  "_resourceType": "scene",
+  "id": "c06a2201-1e71-464e-bda1-a9c932e87f6d",
+  "_index": 6,
+  "type": "LOGO",
+  "name": "Scene 7",
+  "symbol": "scene_7",
+  "x": 1304,
+  "y": 696,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "f46bc657-5a6d-4596-b156-365382cd6300",
+  "tilesetId": "",
+  "paletteIds": [
+    "d9258aa6-0186-457a-bbba-1de979da3346"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": null,
+  "script": [
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2"
+      },
+      "id": "3e731c1b-3c98-4a4f-bb31-5b0681f54ef4"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "ca48b97e-6dc5-4d26-8a66-c0320b4828c3"
+      },
+      "id": "3b946c6f-23b0-45b7-93c1-ba0a9ad25fcf"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

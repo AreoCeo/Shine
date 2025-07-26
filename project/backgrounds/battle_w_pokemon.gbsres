@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9da08757-8f51-46fe-be08-728554a5a274",
+  "name": "battle w pokemon",
+  "symbol": "bg_battle_w_pokemon",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "battle w pokemon.png",
+  "tileColors": "07168+",
+  "autoColor": false
+}

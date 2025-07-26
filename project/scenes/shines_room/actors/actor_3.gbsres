@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actor",
+  "id": "a5bc946f-0be4-4fd1-8f56-f211709c83f7",
+  "_index": 2,
+  "symbol": "actor_12",
+  "prefabId": "",
+  "name": "",
+  "x": 24,
+  "y": 21,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "SHINE is playing\nthe NINTENDO 64! ",
+          "...Okay! It's time\nto go!"
+        ],
+        "avatarId": ""
+      },
+      "id": "b0bbaa20-86da-4545-b003-ac0bcb0bcb36"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

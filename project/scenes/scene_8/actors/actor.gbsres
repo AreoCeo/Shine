@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "0c7b9705-9228-4f7d-9ed0-48b26799dbae",
+  "_index": 0,
+  "symbol": "actor_14",
+  "prefabId": "",
+  "name": "",
+  "x": 6,
+  "y": 3,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It looks like two\ntowers in a city."
+        ],
+        "avatarId": ""
+      },
+      "id": "c6d750c8-d332-4f80-b3f7-b326a9f0542c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

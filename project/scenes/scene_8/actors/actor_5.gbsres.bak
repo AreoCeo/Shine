@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "ab29ea2c-6b43-4ccc-80d1-3a591bb61417",
+  "_index": 4,
+  "symbol": "actor_19",
+  "prefabId": "",
+  "name": "",
+  "x": 12,
+  "y": 24,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The POKéEMON\noutside our cities"
+        ],
+        "avatarId": ""
+      },
+      "id": "b13161d5-3178-4414-b83f-7449a111ccc6"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

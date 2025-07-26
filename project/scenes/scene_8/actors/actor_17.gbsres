@@ -1,0 +1,310 @@
+{
+  "_resourceType": "actor",
+  "id": "013a5e89-491c-43a3-95f5-3d57547160be",
+  "_index": 16,
+  "symbol": "actor_37",
+  "prefabId": "",
+  "name": "",
+  "x": 16,
+  "y": 31,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "742166a5-24e1-40d1-877b-f0a7893cd508",
+  "paletteId": "",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "POKéMON type \nmatch-ups"
+        ],
+        "avatarId": "",
+        "__section": "text"
+      },
+      "id": "1dffa2d9-bdc0-4399-b183-17e149cbe8e6"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Come with me."
+        ],
+        "avatarId": ""
+      },
+      "id": "9e169c6f-ced2-43b9-9732-661d2ce22022"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 20
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "2f866faa-7bfa-46e3-b3de-e6aebad56094"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      },
+      "id": "6bc3e2e9-615f-473d-ab79-43db0eb14de7"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 24
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "2a356a6f-1eb2-487a-a55f-ffec526f9b0f"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapse": false
+      },
+      "id": "074d2202-6d8b-4c83-8f46-750c1fe1b034"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 24
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "0d6405d8-0f85-4591-96b6-e6b22cc57641"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 18
+        },
+        "y": {
+          "type": "number",
+          "value": 22
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "07ea4617-e6ad-4dae-94f9-45589e748e53"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "player",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      },
+      "id": "3759e076-6ff8-4472-86b4-daa202ccda99"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 24
+        },
+        "y": {
+          "type": "number",
+          "value": 22
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "f6106d00-72d3-4fe5-99e3-1bb19e6d157c"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "player",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        }
+      },
+      "id": "e70da2e3-abdf-4743-ae52-b49fb7db1351"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 24
+        },
+        "y": {
+          "type": "number",
+          "value": 21
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "1c3eb03d-724d-4a85-ac45-96472922775b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You should'nt go\noutide like that."
+        ],
+        "avatarId": ""
+      },
+      "id": "b2ed3116-d959-4132-a6fb-e238d28e9f6d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I am Prof Orr."
+        ],
+        "avatarId": ""
+      },
+      "id": "7d7d5801-2695-4b14-b544-9a1aa7cab7f9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This is a world of\nPOKéMON, you know"
+        ],
+        "avatarId": ""
+      },
+      "id": "7000c93f-b76a-4eae-8021-179ffab3d98d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "what POKéMON are?\nYou don't!"
+        ],
+        "avatarId": "",
+        "__collapse": false
+      },
+      "id": "4c0d6706-d65e-4c3a-a492-4c994058a710"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "POKéMON are \ncreatures that"
+        ],
+        "avatarId": ""
+      },
+      "id": "fffcdc21-815f-4acb-b7ab-cc08a9c7600a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "inhabit this \nworld. For some"
+        ],
+        "avatarId": ""
+      },
+      "id": "55433c7a-a3c0-470e-9234-a84ee285ae5b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "they are pets, and\nfor some they"
+        ],
+        "avatarId": ""
+      },
+      "id": "faffe59c-f23b-4325-9079-885babe3a571"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "battle with them\nthey protect you"
+        ],
+        "avatarId": ""
+      },
+      "id": "af8b9480-ae6a-4916-94f6-29213111b45b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "while you protect \nthem.You catch"
+        ],
+        "avatarId": ""
+      },
+      "id": "d28525bb-0a80-442a-8965-870cf602822f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "POKéMON by a \nPOKéBALL. It is"
+        ],
+        "avatarId": ""
+      },
+      "id": "ba90847c-55bc-45ba-9701-01e7b6d0f3c3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "time to choose\nyour POKéMON buddy"
+        ],
+        "avatarId": ""
+      },
+      "id": "097934c6-36d2-4a78-8e78-054deaeaacce"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

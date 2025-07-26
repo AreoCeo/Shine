@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "185a0a94-a604-4516-8324-3a9609609f09",
+  "_index": 0,
+  "symbol": "actor_34",
+  "prefabId": "",
+  "name": "",
+  "x": 10,
+  "y": 21,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You can't sleep in\nsomeone's bed"
+        ],
+        "avatarId": ""
+      },
+      "id": "61d1c562-0a85-4cc8-ae86-2e4e763a1553"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

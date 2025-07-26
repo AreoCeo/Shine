@@ -1,0 +1,325 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "has saved",
+      "symbol": "var_has_saved"
+    },
+    {
+      "id": "1",
+      "name": "PASSCODE-1",
+      "symbol": "var_passcode_1"
+    },
+    {
+      "id": "2",
+      "name": "PASSCODE-2",
+      "symbol": "var_passcode_2"
+    },
+    {
+      "id": "3",
+      "name": "PASSCODE-3",
+      "symbol": "var_passcode_3"
+    },
+    {
+      "id": "4",
+      "name": "PASSCODE-4",
+      "symbol": "var_passcode_4"
+    },
+    {
+      "id": "5",
+      "name": "PASSCODE-TOTAL",
+      "symbol": "var_passcode_total"
+    },
+    {
+      "id": "6",
+      "name": "06-WALK-THROUGH-WALLS-ACTIVE",
+      "symbol": "var_06_walk_through_walls_a"
+    },
+    {
+      "id": "7",
+      "name": "PROF-ORR-FINISHED",
+      "symbol": "var_prof_orr_finished"
+    },
+    {
+      "id": "8",
+      "name": "PROFORRencounter",
+      "symbol": "var_proforrencounter"
+    },
+    {
+      "id": "9",
+      "name": "p1",
+      "symbol": "var_p1"
+    },
+    {
+      "id": "10",
+      "name": "empty",
+      "symbol": "var_empty"
+    },
+    {
+      "id": "11",
+      "name": "p2",
+      "symbol": "var_p2"
+    },
+    {
+      "id": "12",
+      "name": "p3",
+      "symbol": "var_p3_0"
+    },
+    {
+      "id": "13",
+      "name": "VAR_TYPE_ATTACKER",
+      "symbol": "var_var_type_attacker"
+    },
+    {
+      "id": "14",
+      "name": "VAR_TYPE_DEFENDER",
+      "symbol": "var_var_type_defender"
+    },
+    {
+      "id": "15",
+      "name": "VAR_TYPE_EFFECTIVENESS",
+      "symbol": "var_var_type_effectiveness"
+    },
+    {
+      "id": "16",
+      "name": "PLAYER-X",
+      "symbol": "var_player_x"
+    },
+    {
+      "id": "17",
+      "name": "PLAYER-Y",
+      "symbol": "var_player_y"
+    },
+    {
+      "id": "18",
+      "name": "has walked thru lab",
+      "symbol": "var_has_walked_thru_lab"
+    },
+    {
+      "id": "19",
+      "name": "WATER X",
+      "symbol": "var_water_x"
+    },
+    {
+      "id": "20",
+      "name": "WATER Y",
+      "symbol": "var_water_y"
+    },
+    {
+      "id": "21",
+      "name": "FLOWER X",
+      "symbol": "var_flower_x"
+    },
+    {
+      "id": "22",
+      "name": "FLOWER Y",
+      "symbol": "var_flower_y"
+    },
+    {
+      "id": "23",
+      "name": "1pokeid",
+      "symbol": "var_1pokeid"
+    },
+    {
+      "id": "24",
+      "name": "1move1",
+      "symbol": "var_1move1"
+    },
+    {
+      "id": "25",
+      "name": "1move1pp",
+      "symbol": "var_1move1pp"
+    },
+    {
+      "id": "26",
+      "name": "1move2",
+      "symbol": "var_1move2"
+    },
+    {
+      "id": "27",
+      "name": "1move2pp",
+      "symbol": "var_1move2pp"
+    },
+    {
+      "id": "28",
+      "name": "1move3",
+      "symbol": "var_1move3"
+    },
+    {
+      "id": "29",
+      "name": "1move3pp",
+      "symbol": "var_1move3pp"
+    },
+    {
+      "id": "30",
+      "name": "1move4",
+      "symbol": "var_1move4"
+    },
+    {
+      "id": "31",
+      "name": "1move4pp",
+      "symbol": "var_1move4pp"
+    },
+    {
+      "id": "32",
+      "name": "1effect",
+      "symbol": "var_1effect"
+    },
+    {
+      "id": "33",
+      "name": "1HP",
+      "symbol": "var_1hp"
+    },
+    {
+      "id": "34",
+      "name": "1attack",
+      "symbol": "var_1attack"
+    },
+    {
+      "id": "35",
+      "name": "1defence",
+      "symbol": "var_1defence"
+    },
+    {
+      "id": "36",
+      "name": "1special",
+      "symbol": "var_1special"
+    },
+    {
+      "id": "37",
+      "name": "1LV",
+      "symbol": "var_1lv"
+    },
+    {
+      "id": "38",
+      "name": "1EXP",
+      "symbol": "var_1exp"
+    },
+    {
+      "id": "39",
+      "name": "current",
+      "symbol": "var_current"
+    },
+    {
+      "id": "40",
+      "name": "currentmove1",
+      "symbol": "var_currentmove1"
+    },
+    {
+      "id": "41",
+      "name": "currentmove1pp",
+      "symbol": "var_currentmove1pp"
+    },
+    {
+      "id": "42",
+      "name": "currentmove2",
+      "symbol": "var_currentmove2"
+    },
+    {
+      "id": "43",
+      "name": "currentmove2pp",
+      "symbol": "var_currentmove2pp"
+    },
+    {
+      "id": "44",
+      "name": "currentmove3",
+      "symbol": "var_currentmove3"
+    },
+    {
+      "id": "45",
+      "name": "currentmove3pp",
+      "symbol": "var_currentmove3pp"
+    },
+    {
+      "id": "46",
+      "name": "currentmove4",
+      "symbol": "var_currentmove4"
+    },
+    {
+      "id": "47",
+      "name": "currentmove4pp",
+      "symbol": "var_currentmove4pp"
+    },
+    {
+      "id": "48",
+      "name": "currenteffect",
+      "symbol": "var_currenteffect"
+    },
+    {
+      "id": "49",
+      "name": "currentattack",
+      "symbol": "var_currentattack"
+    },
+    {
+      "id": "50",
+      "name": "currentdefence",
+      "symbol": "var_currentdefence"
+    },
+    {
+      "id": "51",
+      "name": "currentspecial",
+      "symbol": "var_currentspecial"
+    },
+    {
+      "id": "52",
+      "name": "currentLV",
+      "symbol": "var_currentlv"
+    },
+    {
+      "id": "53",
+      "name": "currentEXP",
+      "symbol": "var_currentexp"
+    },
+    {
+      "id": "54",
+      "name": "currentHP",
+      "symbol": "var_currenthp"
+    },
+    {
+      "id": "55",
+      "name": "currentmon",
+      "symbol": "var_currentmon"
+    },
+    {
+      "id": "56",
+      "name": "MON_WANTED",
+      "symbol": "var_mon_wanted"
+    },
+    {
+      "id": "8904d98e-0344-4fa8-92e0-09da3f058f7d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "0007dc67-b553-4ba4-b67c-5a5d2320f0e1__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "f4053442-cf9c-405b-84f8-47db09600222__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "0ab4cd61-4514-495d-a471-c3c42e3b6fbf__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "30980625-80d3-4ee8-b65f-3403beb2cd9e__L1",
+      "name": "npc 2 var",
+      "symbol": "var_npc_2_var"
+    },
+    {
+      "id": "a27e4c8b-fdb9-4d6f-8a77-0fa8bf063d62__L0",
+      "name": "npc 1 var",
+      "symbol": "var_npc_1_var"
+    },
+    {
+      "id": "a4af4f7b-d16d-40df-91e7-7be5fc4c2ccd__L4",
+      "name": "Local 4",
+      "symbol": "var_local_4"
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "_resourceType": "trigger",
+  "id": "e12dacf7-75aa-428a-9af5-58fd50055740",
+  "_index": 0,
+  "symbol": "trigger_26",
+  "prefabId": "",
+  "name": "",
+  "x": 18,
+  "y": 30,
+  "width": 4,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "56f7597b-32ae-4217-88a2-931f5fb8ec95",
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "ea94cc37-ff4d-4554-af9b-51aff0faaae0"
+          }
+        ],
+        "false": []
+      },
+      "id": "54262b6c-e3bb-40e2-9680-ad66e2a900ed"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "18"
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 23
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": false
+                  },
+                  "id": "eded1f2c-b097-42f8-b393-31fb993ea95b"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "7",
+                    "__collapseElse": true,
+                    "__collapse": false,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "7"
+                      },
+                      "valueB": {
+                        "type": "false"
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Do you know what\nPOKéMON are?"
+                          ],
+                          "avatarId": ""
+                        },
+                        "id": "a1813b03-1942-4e33-ba24-a0a22ceb6e31"
+                      },
+                      {
+                        "command": "EVENT_MENU",
+                        "args": {
+                          "variable": "L0",
+                          "items": 2,
+                          "option1": "No",
+                          "option2": "Yes I know",
+                          "option3": "",
+                          "option4": "",
+                          "option5": "",
+                          "option6": "",
+                          "option7": "",
+                          "option8": "",
+                          "cancelOnB": false,
+                          "layout": "dialogue",
+                          "cancelOnLastOption": false
+                        },
+                        "id": "4c6931f4-de0e-4fde-bc9e-f985badecfd4"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "variable": "8",
+                          "__collapseElse": false,
+                          "__collapse": false,
+                          "condition": {
+                            "type": "variable",
+                            "value": "8"
+                          }
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "L0",
+                                "operator": "==",
+                                "comparator": 1,
+                                "__collapseElse": false,
+                                "condition": {
+                                  "type": "eq",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "L0"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 1
+                                  }
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "The creatures that\ninhabit these",
+                                        "lands are called\nPOKéMON, For some",
+                                        "people they are\npets, and for",
+                                        "others they fight\nwith them.",
+                                        "Myself...",
+                                        "I just study them",
+                                        "Back then, you\ncould have",
+                                        "encountered one of\nthem, for your",
+                                        "safety, please\nchoose one of",
+                                        "these three\nPOKéMON"
+                                      ],
+                                      "avatarId": ""
+                                    },
+                                    "id": "6e6deb7b-b706-4e81-9303-4f8b56dbdef9"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_IF",
+                                    "args": {
+                                      "variable": "L0",
+                                      "operator": "==",
+                                      "comparator": 2,
+                                      "__collapseElse": true,
+                                      "condition": {
+                                        "type": "eq",
+                                        "valueA": {
+                                          "type": "variable",
+                                          "value": "L0"
+                                        },
+                                        "valueB": {
+                                          "type": "number",
+                                          "value": 2
+                                        }
+                                      }
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_TEXT",
+                                          "args": {
+                                            "text": [
+                                              "I thought you \ndidn't, seeing how",
+                                              "you were about to\nrun off without",
+                                              "one, for your\nsafety pick up",
+                                              "one of these 3\nPOKéMON"
+                                            ],
+                                            "avatarId": ""
+                                          },
+                                          "id": "bb1ef812-a62c-4feb-b5ee-266a63e4a947"
+                                        }
+                                      ],
+                                      "false": []
+                                    },
+                                    "id": "0433be2c-61c4-4c54-a296-df293663f3d0"
+                                  }
+                                ]
+                              },
+                              "id": "fdd935c2-d675-4b6f-a0db-bcff94c9b109"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "L0",
+                                "operator": "==",
+                                "comparator": 1,
+                                "__collapseElse": false,
+                                "condition": {
+                                  "type": "eq",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "L0"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 1
+                                  }
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "The creatures that\ninhabit these",
+                                        "lands are called\nPOKéMON, For some",
+                                        "people they are\npets, and for",
+                                        "others they fight\nwith them.",
+                                        "Myself...",
+                                        "I just study them",
+                                        "If you want to \nstart your ",
+                                        "POKéMON journey,",
+                                        "please\nchoose one of",
+                                        "these three\nPOKéMON"
+                                      ],
+                                      "avatarId": ""
+                                    },
+                                    "id": "097c9b3e-a81b-4f79-9d25-456dd7c956c9"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_IF",
+                                    "args": {
+                                      "variable": "L0",
+                                      "operator": "==",
+                                      "comparator": 2,
+                                      "__collapseElse": true,
+                                      "condition": {
+                                        "type": "eq",
+                                        "valueA": {
+                                          "type": "variable",
+                                          "value": "L0"
+                                        },
+                                        "valueB": {
+                                          "type": "number",
+                                          "value": 2
+                                        }
+                                      }
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_TEXT",
+                                          "args": {
+                                            "text": [
+                                              "Good, I thought\nas much",
+                                              "If you want to\nstart your ",
+                                              "POKéMON journey,\npick one of these",
+                                              "3 POKéMON"
+                                            ],
+                                            "avatarId": ""
+                                          },
+                                          "id": "b6a16941-0f04-4df6-820f-7f1cd8eb7452"
+                                        }
+                                      ],
+                                      "false": []
+                                    },
+                                    "id": "9a66de35-fbf3-413d-8eb0-ebefe25e8293"
+                                  }
+                                ]
+                              },
+                              "id": "704b7bbd-f5b6-4cae-903a-46de8e1013a2"
+                            }
+                          ]
+                        },
+                        "id": "2a2b347b-ae96-4b57-9dcc-a3c53915bbaf"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "d8f85417-798d-46b5-8696-0526425fd8a7"
+                }
+              ]
+            },
+            "id": "7496548c-18d1-4e5b-b1ac-f1f237fabc79"
+          }
+        ],
+        "false": []
+      },
+      "id": "423701b7-b57c-4c77-ad0c-9e41d47aa89d"
+    }
+  ],
+  "leaveScript": []
+}

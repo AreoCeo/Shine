@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d0959d19-fa64-4e4c-b461-983a1f9196c7",
+  "name": "New Leaf Town Expanded",
+  "symbol": "bg_new_leaf_town_expanded",
+  "width": 64,
+  "height": 64,
+  "imageWidth": 512,
+  "imageHeight": 512,
+  "filename": "New Leaf Town Expanded.png",
+  "tileColors": "03486+056+033a+056+033a+056+038+058+03a+058+0318+056+038+055+002+05!03a+055+002+05!0318+056+036+042+052+002+054+038+042+052+002+054+0318+056+036+042+058+038+042+058+03132+042+033e+042+03c0+05c+0334+05!002+056+002+05!0334+054+002+056+0334+05c+03b4+04c+0334+04c+03124+041c+0324+041c+0312+05480+",
+  "autoColor": false
+}

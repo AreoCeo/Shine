@@ -1,0 +1,86 @@
+{
+  "_resourceType": "trigger",
+  "id": "654049bd-d03a-4ec1-86a1-5749d035c96e",
+  "name": "",
+  "prefabId": "",
+  "x": 20,
+  "y": 12,
+  "symbol": "trigger_23",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4182da1c-4dd7-4046-89d9-4576d9dffbb7",
+              "x": {
+                "type": "number",
+                "value": 98
+              },
+              "y": {
+                "type": "number",
+                "value": 61
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "7d710c2e-cd16-4d21-8a0d-3428a7595643"
+          }
+        ],
+        "false": []
+      },
+      "id": "37dd4a75-6549-4fc4-b509-cd03670c3a8e"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "1676e7f6-07cc-40cd-9ef2-1eb8173546c8"
+          }
+        ],
+        "false": []
+      },
+      "id": "d6b06b54-26cb-40bb-bbc4-5485fede85f0"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

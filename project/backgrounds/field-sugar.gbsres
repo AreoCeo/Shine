@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "41500eeb-8abe-49b8-979c-2123cbf5be9d",
+  "name": "FIELD-SUGAR",
+  "symbol": "bg_field_sugar",
+  "width": 64,
+  "height": 144,
+  "imageWidth": 512,
+  "imageHeight": 1152,
+  "filename": "FIELD-SUGAR.png",
+  "tileColors": "",
+  "autoColor": false
+}

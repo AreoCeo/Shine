@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "243d71f7-9660-4fc5-a015-322c61397709",
+  "_index": 11,
+  "symbol": "actor_27",
+  "prefabId": "",
+  "name": "",
+  "x": 24,
+  "y": 31,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "New Leaf Town:\nThe history \nexplained"
+        ],
+        "avatarId": ""
+      },
+      "id": "bda0d71c-8c48-462d-b341-6cbac50451ac"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

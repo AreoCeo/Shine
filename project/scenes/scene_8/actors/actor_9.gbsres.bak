@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "36ac1de1-0578-42f8-8623-5dc146758428",
+  "_index": 8,
+  "symbol": "actor_23",
+  "prefabId": "",
+  "name": "",
+  "x": 24,
+  "y": 24,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ancient POKéEMON"
+        ],
+        "avatarId": ""
+      },
+      "id": "14910b06-a0a5-497b-9380-8183ea0fcbc8"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,86 @@
+{
+  "_resourceType": "trigger",
+  "id": "c321cc3a-b8bc-4e5d-9297-6d4cdfb42c78",
+  "name": "",
+  "prefabId": "",
+  "x": 98,
+  "y": 34,
+  "symbol": "trigger_52",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4d974095-9a57-4dd8-a4f1-8bf7a8f41a6e",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 27
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "9d2b872b-8e81-46fc-a513-500bc1200fa0"
+          }
+        ],
+        "false": []
+      },
+      "id": "06ce3d9d-609a-4ed2-9954-dc9b1d97e991"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "24a71f7e-1435-4958-93bb-74d068763bb0"
+          }
+        ],
+        "false": []
+      },
+      "id": "6ed4c5a1-18ed-4920-905b-210cf9d6c932"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

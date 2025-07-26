@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "baa53ee2-6bc1-40ed-98e8-777ac0a3f154",
+  "name": "gradient sky",
+  "symbol": "bg_gradient_sky",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "gradient sky.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b138edce-0867-46e0-beb3-75189b920a17",
+  "name": "pixelgrid",
+  "symbol": "bg_pixelgrid",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "pixelgrid.png",
+  "tileColors": "",
+  "autoColor": false
+}

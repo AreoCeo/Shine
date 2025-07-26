@@ -1,0 +1,71 @@
+{
+  "_resourceType": "trigger",
+  "id": "29a9693f-287a-455e-9e26-f4ccc88a7bf0",
+  "_index": 1,
+  "symbol": "trigger_28",
+  "prefabId": "",
+  "name": "",
+  "x": 0,
+  "y": 4,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "up"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "1461ffae-3b94-4c30-991a-c3e09c8550cc"
+          }
+        ]
+      },
+      "id": "b49b7690-5485-4714-8ae9-108c14dc9035"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "ERROR:\n\nEVENT MISSING"
+              ],
+              "avatarId": ""
+            },
+            "id": "0866c36d-c322-49d7-bbb2-780e1ad1bef0"
+          }
+        ]
+      },
+      "id": "d8c9b670-b832-4209-8426-6c994df02858"
+    }
+  ],
+  "leaveScript": []
+}

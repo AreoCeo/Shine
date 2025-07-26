@@ -1,0 +1,58 @@
+{
+  "_resourceType": "actor",
+  "id": "9bf8de5b-04d2-4537-bcdc-d55c39d647ff",
+  "_index": 0,
+  "symbol": "actor_9",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 4,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "SHINE turned on\nthe TV!"
+        ],
+        "avatarId": ""
+      },
+      "id": "da2b0b86-b4da-4e64-8543-35ff4d27bd74"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "SHINE turned on \nPOKéFLIX!"
+        ],
+        "avatarId": ""
+      },
+      "id": "3fe8b9af-5ad7-4dc3-88db-701717500a50"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "...But there is \nnothing on!"
+        ],
+        "avatarId": ""
+      },
+      "id": "10e8074d-05ed-4f6c-b97a-b4c3954304d1"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

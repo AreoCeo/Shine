@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "0862c39f-64fe-45eb-a694-199454da025f",
+  "_index": 2,
+  "symbol": "actor_16",
+  "prefabId": "",
+  "name": "",
+  "x": 8,
+  "y": 3,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It's a POKéMON \nhealing station."
+        ],
+        "avatarId": ""
+      },
+      "id": "37ab2ea4-0ad4-47a0-b7ec-e0e7c05f31e5"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

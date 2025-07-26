@@ -1,0 +1,32 @@
+{
+  "_resourceType": "scene",
+  "id": "70f95e84-3bed-48c9-a0f0-a3f210bb5884",
+  "_index": 7,
+  "type": "TOPDOWN",
+  "name": "Sparkle's house 1 floor",
+  "symbol": "scene_9",
+  "x": 5952,
+  "y": 12416,
+  "width": 40,
+  "height": 48,
+  "backgroundId": "24bd7676-cd20-43d5-b219-92b71b770871",
+  "tilesetId": "",
+  "paletteIds": [
+    "633738ff-187a-49a4-a1bf-64d72d72ce0f"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": 2
+      },
+      "id": "da901d2b-b942-4b7b-b9dd-63798924cdd5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f29c+002+0f26+002+0f20+008+0f20+008+0f14+006+0f2+00c+0f14+006+0f2+00c+0f14+006+0f2+002+0f4+006+0f14+006+0f2+002+0f4+006+0f14+00a+0f4+006+0f14+00a+0f4+006+0f14+00a+0f4+006+0f14+0014+0f14+0014+0f14+0014+0f14+0014+0f14+0014+0f28a+"
+}

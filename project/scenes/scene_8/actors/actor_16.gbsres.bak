@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "f0eaaeee-5998-4bc6-9b3a-8621f33d9681",
+  "_index": 15,
+  "symbol": "actor_31",
+  "prefabId": "",
+  "name": "",
+  "x": 14,
+  "y": 32,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Catching POKéMON \n101"
+        ],
+        "avatarId": ""
+      },
+      "id": "3b5982d9-d200-40a5-8b16-95ad2344e366"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,68 @@
+{
+  "_resourceType": "scene",
+  "id": "ce10ace3-3e6a-4062-b5b0-06208a6f8193",
+  "_index": 2,
+  "type": "TOPDOWN",
+  "name": "Shine's room",
+  "symbol": "scene_scene_4",
+  "x": 5200,
+  "y": 12416,
+  "width": 40,
+  "height": 48,
+  "backgroundId": "317d9d65-e0cd-4e68-976b-0fdff94755a4",
+  "tilesetId": "",
+  "paletteIds": [
+    "34daa08b-2935-44bd-8357-71e3d3679b23",
+    "9b2f3646-f6d9-4912-a555-9b4963b6b8fd",
+    "0de2db3f-1691-4e80-9078-5a9a02257e49",
+    "7440abbb-930a-47ed-bcc6-6aa6b12bd556"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": null,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "11635729-6707-4990-8d07-bcfbece29c6c"
+      },
+      "id": "d1b66edc-5dbf-4edc-ae26-36fe822a6148"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "b4476c1b-7e6e-4944-aa19-e924b21b0a44"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": 2
+      },
+      "id": "cd54fe53-240c-4f8c-baad-9246b69bee9e"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "27b5eb98-5f59-421c-8ba8-22b034f0f282",
+        "loop": true
+      },
+      "id": "dedc00ca-4d84-438d-8523-fd4705781675"
+    },
+    {
+      "command": "EVENT_SET_MASTER_VOL",
+      "args": {
+        "l": 7,
+        "r": 7
+      },
+      "id": "06856c71-6d48-4e7d-b8d6-eee0e24bbe8b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f29c+002+0f26+002+0f20+002+0f2+004+0f20+002+0f2+004+0f16+006+0f2+004+0f2+004+0f16+006+0f2+004+0f2+004+0f16+006+0f2+00a+0f16+006+0f2+00a+0f14+0014+0f14+0014+0f14+0014+0f14+0014+0f14+0014+0f14+0014+0f14+0014+0f14+0014+0f28a+"
+}

@@ -1,0 +1,152 @@
+{
+  "_resourceType": "actor",
+  "id": "13383891-5270-4a43-9884-29d06ca2d838",
+  "_index": 0,
+  "symbol": "actor_48",
+  "prefabId": "",
+  "name": "",
+  "x": 22,
+  "y": 21,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "97713347-2f0a-4554-bae9-0535d40b7495",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "9",
+        "__collapseElse": false,
+        "condition": {
+          "type": "variable",
+          "value": "9"
+        }
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "9"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "10"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Are you sure you\nwant the grass\nPOKéMON p1?"
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "3f7c9a96-26f8-4d53-9519-ccd3a1057223"
+                },
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "L1",
+                    "items": 2,
+                    "option1": "No",
+                    "option2": "Yes",
+                    "option3": "",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": true,
+                    "layout": "dialogue"
+                  },
+                  "id": "1057b287-95fe-41e0-acb9-48324cb1c3a5"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "variable": "L1",
+                    "operator": "==",
+                    "comparator": 1,
+                    "__collapseElse": false,
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L1"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    }
+                  },
+                  "children": {
+                    "true": [],
+                    "false": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "9",
+                          "__collapse": false,
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          }
+                        },
+                        "id": "cbf89c34-05f1-4d25-97c9-926ffdb48143"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "7",
+                          "value": {
+                            "type": "true"
+                          }
+                        },
+                        "id": "7e51076e-fdbe-47f1-aea4-1187cdf2bc34"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "$self$"
+                        },
+                        "id": "e7281262-48f6-4eed-8bc4-f47dd4162026"
+                      }
+                    ]
+                  },
+                  "id": "d785285a-9639-4bf4-af4d-ac03250b718c"
+                }
+              ],
+              "false": []
+            },
+            "id": "9ed04c7a-b5c1-4df8-8d33-23c480f3a5e1"
+          }
+        ]
+      },
+      "id": "92205182-69ef-4c2d-820a-ab629e471cb5"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

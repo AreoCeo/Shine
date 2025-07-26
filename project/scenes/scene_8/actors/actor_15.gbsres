@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "27070cdd-fb80-451e-877a-322b57a9b217",
+  "_index": 14,
+  "symbol": "actor_30",
+  "prefabId": "",
+  "name": "",
+  "x": 2,
+  "y": 3,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Its a POKéDEX \nwith a machine!"
+        ],
+        "avatarId": ""
+      },
+      "id": "3eb2cde4-3bfc-4e5d-892a-4f105160e43b"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

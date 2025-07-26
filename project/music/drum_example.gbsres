@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "c756fecd-d283-4b6f-b8d1-7bd6aebb003e",
+  "name": "drum_example",
+  "symbol": "song_drum_example",
+  "filename": "drum_example.uge",
+  "settings": {},
+  "type": "uge"
+}

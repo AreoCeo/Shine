@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "490f6d0b-1b81-4372-96d2-327efa876e28",
+  "name": "old-west gate 1f",
+  "symbol": "bg_old_west_gate_1f",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320,
+  "filename": "old-west gate 1f.png",
+  "tileColors": "",
+  "autoColor": false
+}

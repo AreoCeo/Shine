@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "7a91af91-8b58-4318-9dd8-eb5a471ada2e",
+  "name": "BUTTON-DING",
+  "symbol": "script_7",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_MAX_SFX",
+      "args": {
+        "length": 8,
+        "pri": 7,
+        "hex": "0xAF, 0xF1, 0xC0, 0xC7",
+        "channels": 2
+      },
+      "id": "c511b639-9687-4d54-b9e3-153195d521d1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.1,
+        "frames": 1,
+        "units": "frames"
+      },
+      "id": "5a6a5123-1182-4923-9afd-78256786ada6"
+    },
+    {
+      "command": "EVENT_MAX_SFX",
+      "args": {
+        "length": 8,
+        "pri": 7,
+        "hex": "0xAF, 0xF1, 0xD0, 0xC7",
+        "channels": 2
+      },
+      "id": "43189a27-86a0-47ec-8390-637c2cb0950d"
+    }
+  ]
+}

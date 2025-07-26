@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "0a5a5514-ebc6-4d87-8a2e-77334decce8a",
+  "_index": 7,
+  "symbol": "actor_22",
+  "prefabId": "",
+  "name": "",
+  "x": 22,
+  "y": 24,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "How to battle."
+        ],
+        "avatarId": ""
+      },
+      "id": "fa5cfd2b-78d0-4197-9f9e-4921fb6f0f83"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

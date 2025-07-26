@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bf072dd3-2efa-43cb-a254-bcc2f592a1ce",
+  "name": "DEBUG-MENU",
+  "symbol": "bg_debug_menu",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "DEBUG-MENU.png",
+  "tileColors": "07168+",
+  "autoColor": false
+}

@@ -1,0 +1,71 @@
+{
+  "_resourceType": "trigger",
+  "id": "3152ea4b-d985-4b7e-bb63-4e5d3459b292",
+  "name": "",
+  "prefabId": "",
+  "_index": 22,
+  "symbol": "trigger_70",
+  "x": 24,
+  "y": 24,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a",
+          "start",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "8c070c6d-62fb-4dc3-9509-91aca32cc3b2",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Route 1 Cave\n\n"
+                    ],
+                    "avatarId": ""
+                  }
+                }
+              ],
+              "false": []
+            },
+            "id": "51553894-3a20-4509-b7dd-0f0c4a97a40a"
+          }
+        ]
+      },
+      "id": "e6212f4b-5293-4fe8-bc32-6cee0b8bb4b3"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "a66a0b44-5a25-4508-905d-ba9140b781ad"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "_resourceType": "script",
+  "id": "5fc69d1d-af42-4cf0-95d3-7f3dfaa77759",
+  "name": "PASSCODE-LOCKOUT",
+  "symbol": "script_2",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "5",
+        "operator": "==",
+        "comparator": 4,
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 4
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "PT_EVENT_ADVANCED_DIALOGUE",
+            "args": {
+              "__scriptTabs": "text",
+              "minHeight": 5,
+              "maxHeight": 5,
+              "position": "bottom",
+              "showBorder": true,
+              "clearPrevious": true,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "closeWhen": "notModal",
+              "closeButton": "b",
+              "text": [
+                "PASSCODE OK\n\nPROCEED TO PROTO"
+              ],
+              "avatarId": ""
+            },
+            "id": "6cdfd9d8-a99a-4b4f-a37f-94d0a1eb23e3"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30
+            },
+            "id": "0bd79bfd-6865-4e87-af25-ee80cab00bf5"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "38d7913d-ebd1-4ea0-ac30-3acc6bdaeb0b",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "7b38ee6a-17c3-4e87-87d7-fca9a0deccb7"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "21f188a4-b4ab-4549-ae94-471fc0e04efd"
+          },
+          {
+            "command": "PT_EVENT_ADVANCED_DIALOGUE",
+            "args": {
+              "__scriptTabs": "text",
+              "minHeight": 5,
+              "maxHeight": 5,
+              "position": "bottom",
+              "showBorder": true,
+              "clearPrevious": true,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "closeWhen": "notModal",
+              "closeButton": "any",
+              "text": [
+                "PASSCODE INCORRECT\n\nTRY AGAIN"
+              ],
+              "avatarId": ""
+            },
+            "id": "ba149aac-5d99-45c4-8440-18047f32118e"
+          },
+          {
+            "command": "EVENT_MAX_SFX",
+            "args": {
+              "length": 60,
+              "pri": 15,
+              "hex": "0x80, 0xF0, 0x00, 0xC1",
+              "channels": 2
+            },
+            "id": "f1b99694-7444-4dba-b0d4-3f4b9abd2f4e"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30
+            },
+            "id": "71190b30-44b1-4a7e-96c6-2e0951da8dfb"
+          },
+          {
+            "command": "PT_EVENT_ADVANCED_DIALOGUE",
+            "args": {
+              "__scriptTabs": "text",
+              "minHeight": 5,
+              "maxHeight": 5,
+              "position": "bottom",
+              "showBorder": true,
+              "clearPrevious": true,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "closeWhen": "notModal",
+              "closeButton": "any",
+              "text": [
+                "ENTER PASSCODE"
+              ],
+              "avatarId": ""
+            },
+            "id": "8e889c2d-da01-4ce2-993d-ec0e223b5999"
+          }
+        ]
+      },
+      "id": "0a10fe4e-afdc-4bea-bf4a-13859e3b9bd3"
+    }
+  ]
+}

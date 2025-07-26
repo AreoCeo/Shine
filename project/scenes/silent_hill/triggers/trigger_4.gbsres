@@ -1,0 +1,68 @@
+{
+  "_resourceType": "trigger",
+  "id": "7616749c-ea2c-4da3-b16b-497b87a3c300",
+  "_index": 3,
+  "symbol": "trigger_46",
+  "prefabId": "",
+  "name": "",
+  "x": 40,
+  "y": 22,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "id": "07eba2ed-efe9-4148-bc59-f31e5acbbffd",
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "You can't read \nthis sign from the\nback!"
+                    ],
+                    "avatarId": ""
+                  }
+                }
+              ],
+              "false": []
+            },
+            "id": "ef551998-9e98-4dc4-9525-4c3fc149457b"
+          }
+        ]
+      },
+      "id": "a86e2800-aebd-4422-9af4-bfd8cb0ad144"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "3bd1ddce-30cf-4593-8949-041edae060ef"
+    }
+  ]
+}

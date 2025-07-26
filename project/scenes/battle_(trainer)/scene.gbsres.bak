@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "66c8eac5-a7bf-4777-a4c0-e5a7f255ef0f",
+  "_index": 12,
+  "type": "TOPDOWN",
+  "name": "Battle! (Trainer)",
+  "symbol": "scene_13",
+  "x": 1154,
+  "y": 1059,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "621de1ef-05d9-41c6-838b-6a744a93c5f7",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 2,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

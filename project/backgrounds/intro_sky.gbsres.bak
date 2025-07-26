@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "14243881-72b2-4174-b1d1-b383073f2265",
+  "name": "intro sky",
+  "symbol": "bg_intro_sky",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "intro sky.png",
+  "tileColors": "00168+"
+}

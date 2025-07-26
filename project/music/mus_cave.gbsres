@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "3cb0e93e-01ed-40e0-a94b-2246e4b5965e",
+  "name": "MUS_CAVE",
+  "symbol": "song_mus_cave",
+  "filename": "MUS_CAVE.uge",
+  "settings": {},
+  "type": "uge"
+}

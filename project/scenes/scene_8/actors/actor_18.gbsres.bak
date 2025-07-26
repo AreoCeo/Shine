@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "4d893dd1-e5f6-4d29-913a-636956b1bccd",
+  "_index": 17,
+  "symbol": "actor_38",
+  "prefabId": "",
+  "name": "",
+  "x": 16,
+  "y": 10,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2f082621-f711-4ab3-8cd0-826f010695fc",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It is PROF. ORR's\nwritings for the \nday."
+        ],
+        "avatarId": ""
+      },
+      "id": "b58e8330-6ee7-45f6-b2c6-6b5cb5fd4022"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

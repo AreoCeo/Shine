@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actor",
+  "id": "beba7467-53d6-4865-8323-9efe537fdcf6",
+  "_index": 0,
+  "symbol": "actor_32",
+  "prefabId": "",
+  "name": "",
+  "x": 14,
+  "y": 19,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It's the fridge,\n\nBut there is ",
+          "nothing to eat.\n\n"
+        ],
+        "avatarId": ""
+      },
+      "id": "922ffad2-f8de-490c-8efa-74335585a12f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "17f54cd7-0567-4da9-9e49-55f32e966bd6",
+  "name": "cave painting intro",
+  "symbol": "bg_cave_painting_intro",
+  "width": 128,
+  "height": 18,
+  "imageWidth": 1024,
+  "imageHeight": 144,
+  "filename": "cave painting intro.png",
+  "tileColors": "06900+"
+}

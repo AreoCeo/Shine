@@ -1,0 +1,67 @@
+{
+  "_resourceType": "scene",
+  "id": "466b75a8-a26d-4cef-92d2-c8a26fc85aee",
+  "_index": 17,
+  "name": "Battle scene",
+  "backgroundId": "9da08757-8f51-46fe-be08-728554a5a274",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "afe9378e-635d-4835-96ca-ffeed30ad061",
+    ""
+  ],
+  "collisions": "00f5+0f4+004+0f4+008+0f!002+0f!003+0f2+002+0f!008+0f!002+0f!003+0f2+002+0f!008+0f!002+0f!004+0f!002+0f!008+0f!002+0f!004+0f!002+0f!008+0f!002+0f!004+0f!002+0f!003+",
+  "autoFadeSpeed": null,
+  "symbol": "scene_20",
+  "x": 1200,
+  "y": 1376,
+  "script": [
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2"
+      },
+      "id": "7ffc45f1-b1d7-40e3-8b3d-a69885bc7a49"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "56",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "745385d6-144b-4dfb-a5c4-e7362e9717fc"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "e4b4e7fc-8edf-474e-a4b5-05a8b4da2a6d"
+      },
+      "id": "6f01a6d9-6bd7-4452-bfba-cd7e2ea2a346"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "535005f7-0bc9-478b-b3ee-8b0d4c6b7854"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "fe3177d3-13b6-4396-992c-abcbb67a7d3f"
+      },
+      "id": "2914d960-fb20-46d8-b113-f5289df4606c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "0433806a-2b6b-4032-a93d-c47eced59c92"
+}

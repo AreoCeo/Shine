@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a320d079-1cad-4f78-bc7a-11bc5c3aea93",
+  "name": "NEW-GAME",
+  "symbol": "bg_new_game",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "NEW-GAME.png",
+  "tileColors": "",
+  "autoColor": false
+}

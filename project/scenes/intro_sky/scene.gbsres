@@ -1,0 +1,38 @@
+{
+  "_resourceType": "scene",
+  "id": "0f451ca1-84c7-47af-bdbf-b3ebea54aaaf",
+  "_index": 22,
+  "type": "LOGO",
+  "name": "intro sky",
+  "symbol": "scene_23",
+  "x": 64,
+  "y": 216,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "14243881-72b2-4174-b1d1-b383073f2265",
+  "tilesetId": "",
+  "paletteIds": [
+    "53eea68e-0f8e-42fb-a20d-262d670b3db4",
+    "",
+    "",
+    "",
+    "",
+    "0ccbfd6e-add8-49aa-9a5b-e17490e91e06",
+    "60136ec8-cc3e-4897-9b7c-941061d23e36"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 2,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "player"
+      },
+      "id": "141f802d-b394-4c64-98f2-528f870c4687"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

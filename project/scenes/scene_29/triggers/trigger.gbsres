@@ -1,0 +1,93 @@
+{
+  "_resourceType": "trigger",
+  "id": "289b4368-a4f2-4e33-9949-1dcc1a61659c",
+  "name": "",
+  "prefabId": "",
+  "x": 20,
+  "y": 26,
+  "symbol": "trigger_92",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4e37bb12-39a3-4317-a1c1-70d15ddb56ff",
+              "x": {
+                "type": "number",
+                "value": 22
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "f53cec7e-c380-4095-89cc-1de76e032d20"
+          }
+        ],
+        "false": []
+      },
+      "id": "ae947c04-1480-4a88-a9e1-af1bd22d7852"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "down"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "4e37bb12-39a3-4317-a1c1-70d15ddb56ff",
+              "x": {
+                "type": "number",
+                "value": 22
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "55059233-6396-4043-ab47-f6b22de17692"
+          }
+        ]
+      },
+      "id": "de2be5a3-aafe-4e19-91ff-a4cfd77b8b88"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "down"
+        ]
+      },
+      "id": "fe7437ec-b5d9-41a1-9af7-aff1268c7ff8"
+    }
+  ],
+  "_index": 0
+}

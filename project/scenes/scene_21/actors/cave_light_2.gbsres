@@ -1,0 +1,36 @@
+{
+  "_resourceType": "actor",
+  "id": "dffb364a-be9b-4633-8ad8-0f96d3984391",
+  "name": "cave light 2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1af52e5c-f9db-4c58-ab8c-d1520f925341",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_55",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false
+      },
+      "id": "77f5bcb3-a462-4366-98ab-575bfb76eec4"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 70,
+  "y": 49,
+  "_index": 1
+}

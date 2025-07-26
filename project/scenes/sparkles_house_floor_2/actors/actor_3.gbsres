@@ -1,0 +1,48 @@
+{
+  "_resourceType": "actor",
+  "id": "e4352608-21ac-4135-9c90-5044c8a531bf",
+  "_index": 2,
+  "symbol": "actor_36",
+  "prefabId": "",
+  "name": "",
+  "x": 24,
+  "y": 21,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "SHINE turned on \nthe NINTENDO 64."
+        ],
+        "avatarId": ""
+      },
+      "id": "54f2bbf0-8fa7-48ff-8eff-237fd94c77b4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "But there are no \ngames."
+        ],
+        "avatarId": ""
+      },
+      "id": "e2d9ee06-882e-4ba6-81d3-1e86e0d62fa9"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

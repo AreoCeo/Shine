@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "601fa839-054a-4031-92fb-4e5e24d1ce96",
+  "_index": 1,
+  "symbol": "actor_8",
+  "prefabId": "",
+  "name": "",
+  "x": 2,
+  "y": 4,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "How to throw a\nPOKéBALL"
+        ],
+        "avatarId": ""
+      },
+      "id": "2ec27a1e-a4e1-4f0c-b4b6-a6f966566b7d"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "d0ce4f3a-62cf-4768-8c5a-a92a0291726b",
+  "_index": 10,
+  "symbol": "actor_26",
+  "prefabId": "",
+  "name": "",
+  "x": 22,
+  "y": 32,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Booting up a PC."
+        ],
+        "avatarId": ""
+      },
+      "id": "6e16637e-9aaf-4d34-ae9a-c2d62ff5dda1"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,102 @@
+{
+  "_resourceType": "trigger",
+  "id": "77633bc8-4f82-4357-ad5f-152715890dae",
+  "_index": 9,
+  "symbol": "trigger_50",
+  "prefabId": "",
+  "name": "",
+  "x": 58,
+  "y": 24,
+  "width": 2,
+  "height": 4,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "7",
+        "__collapseElse": true,
+        "condition": {
+          "type": "variable",
+          "value": "7"
+        }
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "0beaea39-c5aa-4195-8029-b60d0fb8a4d3"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "PT_EVENT_ADVANCED_DIALOGUE",
+            "args": {
+              "__scriptTabs": "text",
+              "minHeight": 5,
+              "maxHeight": 5,
+              "position": "top",
+              "showBorder": "true",
+              "clearPrevious": true,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "closeWhen": "notModal",
+              "closeButton": "a",
+              "text": [
+                "ROUTE 1"
+              ],
+              "avatarId": "",
+              "__comment": true
+            },
+            "id": "c4c975f6-8c4c-4b66-b26f-8f6bb1ee4f5e"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "511f0b6c-47f7-419c-adee-da293a059afa",
+              "__comment": true
+            },
+            "id": "fd6205f2-76b8-4114-aa15-85dcd14a63b7"
+          },
+          {
+            "command": "EVENT_SET_MASTER_VOL",
+            "args": {
+              "l": 7,
+              "r": 7,
+              "__comment": true
+            },
+            "id": "4f85c7c0-6675-43da-8708-78c63f45b3cb"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "a257ecc1-0f0b-42e2-90aa-0c9177efa033"
+            },
+            "id": "33aba5d2-7925-4313-a155-5bbb4d022a6e"
+          },
+          {
+            "command": "EVENT_OVERLAY_HIDE",
+            "args": {
+              "__comment": true
+            },
+            "id": "08853e75-eefd-4bd3-97c4-ab17fd341134"
+          }
+        ],
+        "false": []
+      },
+      "id": "47856bd2-858f-4629-ac32-4ed422f45e13"
+    }
+  ],
+  "leaveScript": []
+}

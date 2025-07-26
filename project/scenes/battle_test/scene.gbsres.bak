@@ -1,0 +1,66 @@
+{
+  "_resourceType": "scene",
+  "id": "2764c8e5-ce5a-4afe-8205-19ab94efefe1",
+  "_index": 10,
+  "type": "TOPDOWN",
+  "name": "Battle test",
+  "symbol": "scene_11",
+  "x": 1008,
+  "y": 1072,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "f46bc657-5a6d-4596-b156-365382cd6300",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": null,
+  "script": [
+    {
+      "command": "EVENT_SET_MUSIC_ROUTINE",
+      "args": {
+        "routine": 0,
+        "__scriptTabs": "trigger"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "32cc6280-d58a-4528-946a-1e44250aa059"
+            },
+            "id": "744eeea4-be1f-4cf3-8172-518289f700f2"
+          }
+        ]
+      },
+      "id": "961219f5-07a3-4e23-9296-ed6721610c80"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": "2"
+      },
+      "id": "adbbf36f-74b7-4e6e-8a6a-a4f787a0877b"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "aeba9bd5-0a0c-4871-8958-9475a9a5c907"
+      },
+      "id": "361c1db0-1b51-4f13-956d-d6cc4215369b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "BURIEDALIVE\n\nwants to fight!"
+        ],
+        "avatarId": ""
+      },
+      "id": "26e0dff8-e29e-4888-bcdf-c43fea62f118"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

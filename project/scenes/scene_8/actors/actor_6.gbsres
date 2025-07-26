@@ -1,0 +1,38 @@
+{
+  "_resourceType": "actor",
+  "id": "4b1a5987-8c80-48dc-b35c-8ada96ef80a6",
+  "_index": 5,
+  "symbol": "actor_20",
+  "prefabId": "",
+  "name": "",
+  "x": 14,
+  "y": 23,
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dcf158ac-426d-4a99-bbea-04ac155d921d",
+  "paletteId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "How to heal our\nPOKéMON."
+        ],
+        "avatarId": ""
+      },
+      "id": "9a2b724d-4c80-4154-9a53-60529bee6197"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

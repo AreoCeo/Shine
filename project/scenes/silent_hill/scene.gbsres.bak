@@ -1,0 +1,157 @@
+{
+  "_resourceType": "scene",
+  "id": "9766357e-2ce6-4422-bd48-e2a76ae3adba",
+  "_index": 14,
+  "type": "TOPDOWN",
+  "name": "silent hill",
+  "symbol": "scene_16",
+  "x": 4872,
+  "y": 12832,
+  "width": 222,
+  "height": 56,
+  "backgroundId": "45c9f19d-12c0-4cea-be3d-33cd83442b0f",
+  "tilesetId": "",
+  "paletteIds": [
+    "default-bg-1",
+    "",
+    "",
+    "f31dd6b4-9942-410d-ae04-b2333a5d090c"
+  ],
+  "spritePaletteIds": [
+    "",
+    ""
+  ],
+  "autoFadeSpeed": null,
+  "playerSpriteSheetId": "91924b20-8c06-4bbf-a986-5624c738ac57",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "11635729-6707-4990-8d07-bcfbece29c6c"
+      },
+      "id": "12b23f54-292f-4d2f-943e-b66256f042a3"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "7b236573-b1a3-4060-84a6-dbc63bc8142a"
+    },
+    {
+      "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+      "args": {
+        "speedIn": 0,
+        "speedOut": 0,
+        "speed": 0,
+        "allowFastForward": true
+      },
+      "id": "d02887b9-7c6e-4e2b-be80-5c2aa6b2ce15"
+    },
+    {
+      "command": "EVENT_SET_PALETTE_COLORS",
+      "args": {
+        "sys": "dmg",
+        "pal": "OBP1",
+        "c0": {
+          "type": "number",
+          "value": 1
+        },
+        "c1": {
+          "type": "number",
+          "value": 2
+        },
+        "c2": {
+          "type": "number",
+          "value": 3
+        },
+        "c3": {
+          "type": "number",
+          "value": 3
+        },
+        "type": "Bkg",
+        "cpal": 1,
+        "cc0": true,
+        "r0": {
+          "type": "number",
+          "value": 29
+        },
+        "g0": {
+          "type": "number",
+          "value": 31
+        },
+        "b0": {
+          "type": "number",
+          "value": 28
+        },
+        "cc1": true,
+        "r1": {
+          "type": "number",
+          "value": 22
+        },
+        "g1": {
+          "type": "number",
+          "value": 30
+        },
+        "b1": {
+          "type": "number",
+          "value": 17
+        },
+        "cc2": true,
+        "r2": {
+          "type": "number",
+          "value": 10
+        },
+        "g2": {
+          "type": "number",
+          "value": 19
+        },
+        "b2": {
+          "type": "number",
+          "value": 15
+        },
+        "cc3": true,
+        "r3": {
+          "type": "number",
+          "value": 4
+        },
+        "g3": {
+          "type": "number",
+          "value": 5
+        },
+        "b3": {
+          "type": "number",
+          "value": 10
+        }
+      },
+      "id": "cbed91df-5305-4850-b3b2-469cfd9e04e3"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": 2
+      },
+      "id": "01d1510f-2007-4863-928b-ecc54b3ae4b9"
+    },
+    {
+      "command": "EVENT_SET_MASTER_VOL",
+      "args": {
+        "l": 7,
+        "r": 7
+      },
+      "id": "a9af20df-bf3f-445b-b2cd-afc709430226"
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "9b1367cb-93e4-4afe-9f03-f45d849b3724"
+      },
+      "id": "b811c47d-3c01-439c-b29b-196394382e70"
+    }
+  ],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0057e+0fc+00d2+0fc+00d2+0f2+008+0f2+00d2+0f2+008+0f2+00cc+0f8+008+0f2+00cc+0f8+008+0f2+00ca+0fa+008+0f8+00c4+0fa+008+0f8+009a+0f18+0012+0fa+008+0f8+006+0f74+0020+0f18+0012+0fa+008+0f8+006+0f74+001e+0f2+0018+0f2+0010+0f4+002+0f6+006+0f2+002+0f4+006+0f2+0014+0f4+008+0f4+008+0f4+008+0f4+0034+0f2+001e+0f2+0018+0f2+0010+0f4+002+0f6+006+0f2+002+0f4+006+0f2+0014+0f4+008+0f4+008+0f4+008+0f4+0034+0f2+001e+0f2+0018+0f2+0010+0f2+0018+0f8+0014+0f4+008+0f4+008+0f4+008+0f4+0034+0f2+001e+0f2+0018+0f2+0010+0f2+0018+0f8+0014+0f4+008+0f4+008+0f4+008+0f4+0034+0f2+0018+0f8+0018+0f2+0010+0f2+001c+0f4+0050+0f14+008+0f6+0018+0f8+0018+0f2+0010+0f2+001c+0f4+0050+0f14+008+0f6+0016+0f4+002+0f8+0014+0f14+001c+0f4+0050+0f2+0010+0f2+008+0f2+001a+0f4+002+0f8+0014+0f14+001c+0f4+0050+0f2+0010+0f2+008+0f2+001a+0f2+0018+0f2+0022+0f4+004+0f18+0034+0f2+002+0f4+004+0f2+006+0f2+0010+0f2+008+0f6+0016+0f2+0018+0f2+0022+0f4+004+0f18+0034+0f2+002+0f4+004+0f2+006+0f2+0010+0f2+008+0f6+0016+0f2+003c+0f4+004+0f2+0014+0f2+0034+0f2+004+0f2+004+0f2+006+0f2+0010+0f2+008+0f2+002+0f2+0016+0f2+003c+0f4+004+0f2+0014+0f2+0034+0f2+004+0f2+004+0f2+006+0f2+0010+0f2+008+0f2+002+0f2+0016+0fa+008+0fc+004+0f18+00c+0fa+00c+0f2+0034+0f2+00e+0f2+002+0f2+0010+0f2+00c+0f2+0016+0fa+008+0fc+004+0f18+00c+0fa+00c+0f2+0034+0f2+00e+0f2+002+0f2+0010+0f2+00c+0f2+008+0fa+006+0f8+008+0f2+00e+0f2+00e+0f8+008+0f8+004+0f2+00c+0f2+0034+0f2+008+0f2+004+0f2+002+0f2+0010+0f2+00c+0f2+008+0fa+006+0f8+028+0f2+00e+0f2+00e+0f8+008+0f8+004+0f2+00c+0f2+0034+0f2+008+0f2+004+0f2+002+0f2+0010+0f2+00c+0f2+0010+0fc+0018+0f2+002+0f2+00c+0f4+002+0f6+0014+0f2+00a+0f2+0034+0f2+002+0f4+00c+0f2+0010+0f2+00c+0f2+0010+0fc+0018+0f2+002+0f2+00c+0f4+002+0f6+0014+0f2+00a+0f2+0034+0f2+002+0f4+00c+0f2+0010+0f2+00c+0f2+0034+0f2+002+0f2+00c+0f2+001e+0f2+00a+0f22+0014+0f2+006+0fe+0010+0f10+0034+0f2+002+0f2+00c+0f2+001e+0f2+00a+0f22+0014+0f2+006+0fe+0010+0f10+008+0f30+00e+0f22+002a+0f20+0034+0f30+00e+0f22+002a+0f20+00fd0+"
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9c47be52-a68f-46c1-ad57-adc08f4746a3",
+  "name": "r1-old 2f",
+  "symbol": "bg_r1_old_2f",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320,
+  "filename": "r1-old 2f.png",
+  "tileColors": "0723c+0010+0718+0010+0718+0010+0718+0010+0718+0010+0718+0010+0718+0010+0718+0010+0718+0010+0718+0010+0718+0010+0718+0010+0723c+",
+  "autoColor": false
+}

@@ -1,0 +1,68 @@
+{
+  "_resourceType": "trigger",
+  "id": "2bc8189c-2dfe-4717-8aab-cab6eda09cf3",
+  "_index": 1,
+  "symbol": "trigger_25",
+  "prefabId": "",
+  "name": "",
+  "x": 16,
+  "y": 24,
+  "width": 2,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_ACTOR_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "How to get\n\nPOKéCOINS."
+                    ],
+                    "avatarId": ""
+                  },
+                  "id": "b4284ac7-7b9b-4e99-845f-c765c09233b6"
+                }
+              ],
+              "false": []
+            },
+            "id": "c10e83d6-4861-4180-9c17-c5f96ba151da"
+          }
+        ]
+      },
+      "id": "5f535cf2-d44a-4b7a-b857-4fa5f579c89b"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "08231f32-8ceb-4d02-912e-abf77dde4730"
+    }
+  ]
+}
